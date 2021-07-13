@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SavePDFUsingNative"
+             x:Class="SavePDFUsingNative.MainPage"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+        
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="90"/>
+                <ColumnDefinition Width="90"/>
+                <ColumnDefinition Width="70"/>
+
+            </Grid.ColumnDefinitions>
+           
+            <Button Text="Clear ALL" Grid.Column="1" Clicked="Arrow_Clicked_3"/>
+            <Button Text="None" Grid.Column="4" Clicked="None_Clicked_5"/>
+           
+        </Grid>
+        <Grid Grid.Row="1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="110"/>
+               
+              
+            </Grid.ColumnDefinitions>
+        
+            <Button Text="Import" Grid.Column="0" Clicked="Import_Clicked_1"/>
+           
+        </Grid>
+      
+        <syncfusion:SfPdfViewer Grid.Row="2" x:Name="pdfViewerControl" IsToolbarVisible="False" />
+    </Grid>
+</ContentPage>
