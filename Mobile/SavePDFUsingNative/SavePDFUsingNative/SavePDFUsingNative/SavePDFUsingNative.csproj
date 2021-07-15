@@ -9,12 +9,23 @@
     <None Remove="Assets\single.pdf" />
     <None Remove="Assets\A 401 - Enlarged Plans and Elevations -Level 1.pdf" />
     <None Remove="Assets\vectorDocument.pdf" />
+    <None Remove="Assets\NormalDocument.pdf" />
+    <None Remove="Assets\DrawingPDFTronOnly.xfdf" />
+    <None Remove="Assets\NormalPDFTronOnly.xfdf" />
+    <None Remove="Assets\DrawingDocument.pdf" />
+    <None Remove="Assets\NormalSyncfusionMobileOnly.xfdf" />
+    <None Remove="Assets\DrawingSyncfusionMobileOnly.xfdf" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Assets\Exporteddata.xfdf" />
     <EmbeddedResource Include="Assets\single.pdf" />
-    <EmbeddedResource Include="Assets\vectorDocument.pdf" />
+    <EmbeddedResource Include="Assets\NormalDocument.pdf" />
+    <EmbeddedResource Include="Assets\DrawingPDFTronOnly.xfdf" />
+    <EmbeddedResource Include="Assets\NormalPDFTronOnly.xfdf" />
+    <EmbeddedResource Include="Assets\DrawingDocument.pdf" />
+    <EmbeddedResource Include="Assets\NormalSyncfusionMobileOnly.xfdf" />
+    <EmbeddedResource Include="Assets\DrawingSyncfusionMobileOnly.xfdf" />
   </ItemGroup>
 
   <ItemGroup>

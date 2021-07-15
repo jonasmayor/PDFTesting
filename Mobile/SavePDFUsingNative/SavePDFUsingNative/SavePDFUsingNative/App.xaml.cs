@@ -12,8 +12,8 @@ namespace SavePDFUsingNative
 		public App ()
 		{
 			InitializeComponent();
-
-			MainPage = new SavePDFUsingNative.MainPage();
+			Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NDcwODQxQDMxMzkyZTMyMmUzMFVaWnNjdDl5Mm9XN2hCNXFJajJkbzVXSC8vZ0ZKZFJtT2I5K2pSdzBsYlE9");
+			MainPage = new NavigationPage( new SavePDFUsingNative.MainPage());
 		}
 
 		protected override void OnStart ()
