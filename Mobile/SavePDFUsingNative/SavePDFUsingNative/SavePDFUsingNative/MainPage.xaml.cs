@@ -7,6 +7,7 @@ namespace SavePDFUsingNative
         public MainPage()
 		{
 			InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
 		}
 
 

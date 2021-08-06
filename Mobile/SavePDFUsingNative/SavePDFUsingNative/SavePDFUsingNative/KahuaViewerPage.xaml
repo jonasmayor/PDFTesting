@@ -2,8 +2,9 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SavePDFUsingNative.KahuaViewerPage"
-             xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms">
+    x:Class="SavePDFUsingNative.KahuaViewerPage"
+    Title="Syncfusion Testing"
+    xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms">
     <StackLayout>
         <Button Text="01 Single Page Vector" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Clicked="Button1_Clicked"/>
         <Button Text="02 Single Page Raster" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Clicked="Button2_Clicked"/>

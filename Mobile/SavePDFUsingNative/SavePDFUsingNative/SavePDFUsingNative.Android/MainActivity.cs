@@ -14,7 +14,7 @@ using AndroidX.Core.App;
 
 namespace SavePDFUsingNative.Droid
 {
-    [Activity(Label = "SavePDFUsingNative", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "SavePDFUsingNative",  Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         private int PERMISSION_REQUEST_CODE = 1;
@@ -26,6 +26,7 @@ namespace SavePDFUsingNative.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            Acr.UserDialogs.UserDialogs.Init(this);
             LoadApplication(new App());
             if (Build.VERSION.SdkInt >= BuildVersionCodes.M)
             {
