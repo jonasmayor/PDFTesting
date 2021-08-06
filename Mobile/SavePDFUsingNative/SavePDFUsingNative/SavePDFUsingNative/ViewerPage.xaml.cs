@@ -37,10 +37,29 @@ namespace SavePDFUsingNative
 
         Stream exportedStream;
         private string _documentName;
+        private MemoryStream _xfdfStream;
 
         private void Export_Clicked(object sender, EventArgs e)
         {
-            exportedStream = pdfViewerControl.ExportAnnotations(Syncfusion.Pdf.Parsing.AnnotationDataFormat.XFdf);
+            try
+            {
+                pdfViewerControl.AnnotationSettings.IsLocked = true;
+
+                _xfdfStream = pdfViewerControl.ExportAnnotations(Syncfusion.Pdf.Parsing.AnnotationDataFormat.XFdf) as MemoryStream;
+
+                var path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+                var xfdfPath = Path.Combine(path, $"annotations.xfdf");
+                using (var outputFileStream = new FileStream(xfdfPath, FileMode.Create, FileAccess.Write))
+                {
+                    _xfdfStream.WriteTo(outputFileStream);
+                }
+
+                _xfdfStream.Position = 0;
+            }
+            catch (Exception err)
+            {
+            }
         }
 
         private void Import_PDFTronOnly_Clicked(object sender, EventArgs e)
@@ -62,6 +81,29 @@ namespace SavePDFUsingNative
             //Import annotations from "xfdf" data format
             Stream xfdfStreamToImport = typeof(App).GetTypeInfo().Assembly.GetManifestResourceStream($"SavePDFUsingNative.Assets.{_documentName}Mixed.xfdf");
             pdfViewerControl.ImportAnnotations(xfdfStreamToImport, AnnotationDataFormat.XFdf);
+        }
+
+        void ImportExported_Clicked(System.Object sender, System.EventArgs e)
+        {
+            pdfViewerControl.ClearAllAnnotations();
+            if(_xfdfStream != null)
+            {
+                pdfViewerControl.ImportAnnotations(_xfdfStream, AnnotationDataFormat.XFdf);
+            }
+        }
+
+        async void Button_Clicked(System.Object sender, System.EventArgs e)
+        {
+            var actions = new string[] { "Start Ink", "End Ink" };
+            var actionSheetResult = await DisplayActionSheet("Actions", "Cancel", null, actions);
+            if(actionSheetResult == "Start Ink")
+            {
+                pdfViewerControl.AnnotationMode = AnnotationMode.Ink;
+            }
+            else
+            {
+                pdfViewerControl.EndInkSession(true);
+            }
         }
     }
 }

@@ -8,23 +8,34 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="70"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="70"/>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" >
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="90"/>
-                <ColumnDefinition Width="90"/>
-                <ColumnDefinition Width="90"/>
-                <ColumnDefinition Width="90"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
 
             </Grid.ColumnDefinitions>
            
             <Button Text="PDFTron" Grid.Column="0" Clicked="Import_PDFTronOnly_Clicked"/>
             <Button Text="Syncfusion" Grid.Column="1" Clicked="Import_SyncfusionOnly_Clicked"/>
-            <Button Text="Mixed" Grid.Column="2" Clicked="Import_Mixed_Clicked"/>
-            <Button Text="Clear" Grid.Column="3" Clicked="Clear_Clicked"/>
-           
+            <!--<Button Text="Mixed" Grid.Column="2" Clicked="Import_Mixed_Clicked"/>-->
+            <Button Text="Clear" Grid.Column="2" Clicked="Clear_Clicked"/>
+            <Button Text="Actions" Grid.Column="3" Clicked="Button_Clicked"/>
         </Grid>
       
         <syncfusion:SfPdfViewer Grid.Row="1" x:Name="pdfViewerControl" MaximumZoomPercentage="999" IsToolbarVisible="True" />
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="90"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+           
+            <Button Text="Save" Grid.Column="0" Clicked="Export_Clicked"/>
+            <Button Text="Import Saved Markups" Grid.Column="1" Clicked="ImportExported_Clicked"/>
+           
+        </Grid>
     </Grid>
 </ContentPage>

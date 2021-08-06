@@ -4,7 +4,8 @@
              x:Class="SavePDFUsingNative.MainPage"
              xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms">
     <StackLayout>
-        
+            <Button Text="Kahua Testing" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Clicked="KahuaTestingButton_Clicked"/>
+
             <Button Text="Load Normal PDF" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Clicked="LoadNormalButton_Clicked"/>
             <Button Text="Load Drawing PDF (Hi-res)"  VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Clicked="LoadDrawingButton_Clicked"/>
     </StackLayout>

@@ -23,9 +23,9 @@
 	<key>MinimumOSVersion</key>
 	<string>9.0</string>
 	<key>CFBundleDisplayName</key>
-	<string>SavePDFUsingNative</string>
+	<string>Syncfusion PDF Test</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.syncfusion.SavePDFUsingNative</string>
+	<string>com.kahua.syncfusiontest</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>CFBundleIconFiles</key>
@@ -49,6 +49,6 @@
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
-	<string>SavePDFUsingNative</string>
+	<string>kahua.syncfusiontest.mobile</string>
 </dict>
 </plist>

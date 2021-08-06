@@ -22,7 +22,16 @@ namespace SavePDFUsingNative
 
         }
 
+        void LoadBigButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new ViewerPage("Big"));
+        }
 
+        void KahuaTestingButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+
+            Navigation.PushAsync(new KahuaViewerPage());
+        }
 
     }
 }
