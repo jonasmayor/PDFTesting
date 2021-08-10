@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SavePDFUsingNative.MainPage"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms">
+    <StackLayout Padding="0,0,0,20">
+            <Button Text="Syncfusion Testing" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="KahuaTestingButton_Clicked"/>
+
+            <Button Text="Load Normal PDF" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Clicked="LoadNormalButton_Clicked"/>
+            <Button Text="Load Drawing PDF (Hi-res)"  VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Clicked="LoadDrawingButton_Clicked"/>
+    </StackLayout>
+</ContentPage>

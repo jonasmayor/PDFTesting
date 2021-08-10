@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xfdf xml:space="preserve" xmlns="http://ns.adobe.com/xfdf/">
+  <annots>
+    <ink page="0" rect="39,441,118,587" color="#FF6A6A" flags="print" name="Kahua-34158945-8102-4313-acc9-e69015c2bf17" width="2">
+      <inklist>
+        <gesture>55.25,475.675,54.825,475.675,53.55,474.825,49.725,469.3,46.325,459.95,44.625,452.725,45.05,450.175,53.975,447.625,67.15,445.5,83.725,445.5,88.825,446.35,96.9,451.875,99.45,456.975,99.875,461.225,99.875,466.325,98.6,472.7,91.8,487.575,81.6,503.725,75.225,512.225,72.25,516.9,71.825,517.75,71.4,518.6,69.275,520.725,67.15,521.15,66.725,521.15,65.45,521.15,62.9,519.025,61.625,515.625,61.2,513.5,61.2,512.65,61.2,511.8,62.475,510.525,63.75,510.1,65.45,509.25,69.7,505.85,73.95,505,75.65,505,83.725,505,93.5,509.25,101.15,515.625,109.225,526.25,112.2,531.35,113.05,539.85,113.05,546.225,113.05,552.175,113.05,556,112.625,561.525,110.5,568.325,108.8,573,105.825,577.25,103.275,579.375,98.175,579.8,90.95,581.5,87.975,581.5,82.875,581.5,80.75,580.225,77.35,576.825,75.65,573.425,75.65,562.8,76.925,549.625,88.4,536.45,99.45,528.375</gesture>
+      </inklist>
+    </ink>
+    <ink page="0" rect="95,370,259,474" color="#FF6A6A" flags="print" width="2">
+      <inklist>
+        <gesture>100.3,401.725,104.975,401.725,119,408.1,132.175,414.475,147.9,422.55,159.8,430.2,166.175,434.025,175.525,439.975,187.425,445.925,197.2,451.45,201.875,453.575,204.425,455.275,204.85,455.275,205.275,455.7,205.275,455.275,201.025,453.575,191.25,449.325,176.8,442.95,160.225,434.025,151.725,429.775,149.6,428.5,148.325,427.225,147.475,421.7,148.75,414.475,155.975,411.075,163.625,408.525,176.8,408.1,191.25,408.1,205.275,409.375,211.225,413.625,214.2,421.7,214.2,438.275,206.975,452.3,195.5,462.5,190.825,465.9,184.45,468.025,182.75,468.025,180.2,463.775,177.65,441.25,177.65,422.125,184.025,403,202.725,383.45,223.975,375.375,236.725,374.1,240.55,375.8,252.45,389.825,254.575,408.95,254.575,420.425,254.575,432.325,254.575,437.85,254.575,440.825,254.15,441.25</gesture>
+      </inklist>
+    </ink>
+    <line page="0" start="222,559" end="46,752" date="D:20210318180847+-4'00'" color="#FF0000" rotation="90" textsize="10" textcolor="0,0,0" textcoloropacity="1" textbackground="0,0,0" textbackgroundopacity="0" flags="print" name="Kahua-2eeafe39-87fe-4c94-b0b9-0f9391aafaaa" interior-color="#000000" rect="38,551,230,760" head="None" tail="None" width="1" style="solid" IT="LineArrow" leaderExtend="0" leaderLength="0" caption-style="Inline" caption="no" />
+    <line page="0" start="512,412" end="105,421" color="#FF6A6A" rotation="90" textsize="10" textcolor="0,0,0" textcoloropacity="1" textbackground="0,0,0" textbackgroundopacity="0" flags="print" name="Kahua-9070a319-19bc-4b36-8ffd-3834f1c5e78f" interior-color="#000000" rect="97,404,520,429" head="None" tail="None" width="2" style="solid" IT="LineArrow" leaderExtend="0" leaderLength="0" caption-style="Inline" caption="no" />
+    <line page="0" start="555,463" end="566,322" color="#FF6A6A" flags="print" name="Kahua-d16b4c98-a3aa-410a-94cf-cda979cb199a" interior-color="#000000" rect="547,312,584,473" head="None" tail="OpenArrow" width="2" style="solid" IT="LineArrow" leaderExtend="0" leaderLength="0" caption-style="Inline" caption="no" />
+<freetext flags="print" IT="FreeTextCallout" head="None" name="Kahua-463572f9-20a7-45e6-a4f6-2542775d1dc4" page="0" fringe="0,0,0,0" rect="1169.03,-7084.27,1290.73,-6532.19" rotation="90">
+  <defaultstyle>font:Helvetica 51.62926pt;style:Regular; color:#FF6A6A</defaultstyle>
+  <defaultappearance>0 0 0 rg </defaultappearance>
+  <contents>51515 gjhgjhg hhjhb</contents>
+</freetext>
+<freetext TextColor="#FF0000" style="solid" width="0" opacity="1" creationdate="D:20210712134344Z" flags="print" date="D:20210712134344Z" name="Kahua-4bb3f072-2854-48f5-acdd-dc413528edc3" page="0" rect="1378.9,1532.86,1483.8,1762.87" rotation="90">
+  <defaultstyle>font: Helvetica 11pt;color: #FF0000</defaultstyle>
+  <defaultappearance> 1 0 0 RG 0 0 1 rg /Helv 11 Tf </defaultappearance>
+  <contents>test 123</contents>
+  <apref y="1762.87" x="1378.9" gennum="0" objnum="839" />
+</freetext>
+  </annots>
+  <f href="" />
+</xfdf>

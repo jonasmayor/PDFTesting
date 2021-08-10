@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Exporteddata.xfdf" />
+    <None Remove="Assets\single.pdf" />
+    <None Remove="Assets\A 401 - Enlarged Plans and Elevations -Level 1.pdf" />
+    <None Remove="Assets\vectorDocument.pdf" />
+    <None Remove="Assets\NormalDocument.pdf" />
+    <None Remove="Assets\DrawingPDFTronOnly.xfdf" />
+    <None Remove="Assets\NormalPDFTronOnly.xfdf" />
+    <None Remove="Assets\DrawingDocument.pdf" />
+    <None Remove="Assets\NormalSyncfusionMobileOnly.xfdf" />
+    <None Remove="Assets\DrawingSyncfusionMobileOnly.xfdf" />
+    <None Remove="Assets\BigDocument.pdf" />
+    <None Remove="Acr.UserDialogs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Exporteddata.xfdf" />
+    <EmbeddedResource Include="Assets\single.pdf" />
+    <EmbeddedResource Include="Assets\NormalDocument.pdf" />
+    <EmbeddedResource Include="Assets\DrawingPDFTronOnly.xfdf" />
+    <EmbeddedResource Include="Assets\NormalPDFTronOnly.xfdf" />
+    <EmbeddedResource Include="Assets\DrawingDocument.pdf" />
+    <EmbeddedResource Include="Assets\NormalSyncfusionMobileOnly.xfdf" />
+    <EmbeddedResource Include="Assets\DrawingSyncfusionMobileOnly.xfdf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.SfPdfViewer" Version="19.2.0.51" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Acr.UserDialogs" Version="7.1.0.514" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

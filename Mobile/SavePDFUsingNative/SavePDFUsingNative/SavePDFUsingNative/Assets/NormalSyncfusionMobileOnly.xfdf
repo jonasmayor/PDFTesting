@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><xfdf xml:space="preserve" xmlns="http://ns.adobe.com/xfdf/">
+  <annots>
+    <square page="0" rect="125.8683,502.7268,332.0781,609.9366" color="#FF6A6A" flags="print" name="Kahua-9c695f44-1974-433f-86e7-88f9c10c5517" width="2" />
+    <freetext page="1" rect="163.2293,398.0049,393.1882,431.0049" rotation="0" border="0,0,0" flags="print" name="Kahua-3aec57d9-24cb-4202-aa3a-ff31edd6fc44" fringe="0,0,0,0" q="0" IT="FreeTextCallout" head="None">
+      <defaultappearance>0 0 0 rg </defaultappearance>
+      <defaultstyle>font:Helvetica 14pt;style:Regular; color:#FF6A6A</defaultstyle>
+      <contents>What’s up from mobile country!?</contents>
+    </freetext>
+    <ink page="1" rect="148,74,417,178" color="#FF6A6A" flags="print" name="Kahua-d9f44a06-3fb0-4c19-9ff4-cdaad12e4606" border="0,0,2">
+      <inklist>
+        <gesture>176.2683,108.8927,176.7512,109.8586,178.6829,110.8244,181.0976,113.239,186.4098,120,191.722,131.5902,193.6537,146.0781,193.6537,158.1512,195.1024,166.8439,195.1024,169.7415,194.1366,171.6732,193.1707,171.6732,189.3073,172.1561,183.0293,172.1561,175.7854,172.1561,163.7122,165.8781,154.5366,150.9073,153.0878,138.3512,155.0195,123.8634,162.7463,113.722,174.8195,106.961,198.4829,99.23413,228.4244,96.81952,244.8439,99.23413,263.1951,105.0293,284.9268,110.8244,296.5171,114.2049,300.8634,116.6195,302.7951,117.1024,302.7951,118.0683,302.3122,118.5512,301.3463,119.0341,298.9317,119.5171,295.5512,120.4829,289.7561,121.9317,281.5464,125.7951,268.9902,130.6244,259.3317,132.0732,254.9854,132.0732,252.0878,132.0732,250.639,132.0732,248.7073,129.6585,245.8098,126.761,240.4976,114.2049,237.6,103.5805,237.6,98.75122,237.6,95.85364,245.8098,87.16095,253.5366,82.81464,255.9512,81.36584,256.9171,80.88293,257.4,80.88293,259.3317,80.40002,265.6097,79.91705,277.2,78.46832,292.6537,78.46832,315.3512,78.46832,329.839,80.40002,348.1902,82.81464,361.7122,84.26343,372.3366,86.67804,383.9268,90.54144,393.1024,93.43903,401.7951,94.40491,411.4536,95.37073,412.9024,95.37073</gesture>
+      </inklist>
+    </ink>
+    <polygon page="2" color="#FF6A6A" name="Kahua-0ea92a16-2ca1-4ac5-bef1-a832fa565659" rect="137,192,424,387" intensity="2" style="cloudy" width="2" leaderExtend="0">
+      <vertices>137,240;212,367;410,387;424,249;285,192;137,240</vertices>
+    </polygon>
+    <polygon page="2" color="#FF6A6A" name="Kahua-55079df6-073d-40cc-a7b8-a88787989c2c" rect="59,56,190,178" width="2" leaderExtend="0">
+      <vertices>134,178;59,130;102,56;190,94;134,178</vertices>
+    </polygon>
+    <circle page="2" rect="256.4341,47.31219,536.5317,113.4732" color="#FF6A6A" textsize="10" textcolor="0,0,0" textcoloropacity="1" textbackground="0,0,0" textbackgroundopacity="0" flags="print" name="Kahua-8f20ad78-05dd-4680-a1dd-491b09d5e2ea" style="solid" width="2" />
+    <freetext page="3" rect="495.4829,492.161,597.8833,525.161" rotation="0" border="0,0,0" flags="print" name="Kahua-29af43c5-01da-4d4a-adf5-6293af56c48a" fringe="0,0,0,0" q="0" IT="FreeTextCallout" head="None">
+      <defaultappearance>0 0 0 rg </defaultappearance>
+      <defaultstyle>font:Helvetica 14pt;style:Regular; color:#467DFF</defaultstyle>
+      <contents>Test 432423</contents>
+    </freetext>
+    <line page="3" start="80,461" end="248.056,553.9365" color="#467DFF" rotation="90" textsize="10" textcolor="0,0,0" textcoloropacity="1" textbackground="0,0,0" textbackgroundopacity="0" flags="print" name="Kahua-c729b91f-08bd-4406-bfe2-0a9267d87f7a" interior-color="#000000" rect="70,451,258.056,563.9365" head="None" tail="None" width="2" style="solid" IT="LineArrow" leaderExtend="0" leaderLength="0" caption-style="Inline" caption="no" />
+    <polygon page="3" color="#467DFF" name="Kahua-f15777ea-014b-4d76-a4f9-125eebf7fb7c" rect="179,325,370,475" width="2" leaderExtend="0">
+      <vertices>179,386;369,475;370,387;240,325;179,386</vertices>
+    </polygon>
+    <line page="3" start="635,422" end="471.7577,286.3684" color="#467DFF" flags="print" name="Kahua-04f3472c-c68c-4c88-9ab9-8ae168cce47f" interior-color="#000000" rect="461.7577,268.3684,645,440" head="None" tail="OpenArrow" width="2" style="solid" IT="LineArrow" leaderExtend="0" leaderLength="0" caption-style="Inline" caption="no" />
+  </annots>
+  <f href="" />
+</xfdf>
