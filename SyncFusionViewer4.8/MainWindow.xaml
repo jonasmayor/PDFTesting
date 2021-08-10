@@ -1,17 +1,12 @@
-﻿<Window
-    x:Class="SyncFusionViewer.MainWindow"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:local="clr-namespace:SyncFusionViewer"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:pdfviewer="clr-namespace:Syncfusion.Windows.PdfViewer;assembly=Syncfusion.PdfViewer.WPF"
-    Title="MainWindow"
-    Width="800"
-    Height="450"
-    MinWidth="1024"
-    MinHeight="768"
-    mc:Ignorable="d">
+﻿<Window x:Class="SyncFusionViewer4._8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SyncFusionViewer4._8"
+        xmlns:pdfviewer="clr-namespace:Syncfusion.Windows.PdfViewer;assembly=Syncfusion.PdfViewer.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
     <DockPanel LastChildFill="True">
         <Menu DockPanel.Dock="Top">
             <MenuItem x:Name="Preloaded" Header="_PreDownloaded">
@@ -47,7 +42,17 @@
             <MenuItem Click="OpenMenuItem_Click" Header="_Open" />
             <MenuItem Click="ImportMenuItem_Click" Header="_Import xfdf" />
             <MenuItem Click="ExportMenuItem_Click" Header="_Export xfdf" />
+            <MenuItem FontWeight="Bold" Header="Page _Rotation" Name="PageRotation" Click="PageRotation_Click"/>
+            <MenuItem FontWeight="Bold" Header="_Arrow" Name="Arrow" Click="Arrow_Click"/>
+            <MenuItem FontWeight="Bold" Header="Rotate Clockwise" Name="RotateClockwise" Click="RotateClockwise_Click"/>
+            <MenuItem FontWeight="Bold" Header="Rotate CounterClockwise" Name="RotateCounterClockwise" Click="RotateCounterClockwise_Click"/>
+            <MenuItem FontWeight="Bold" Header="Rotate Clockwise Command" Name="RotateClockwiseCommand" Click="RotateClockwiseCommand_Click"/>
+            <MenuItem FontWeight="Bold" Header="Rotate CounterClockwise Command" Name="RotateCounterClockwiseCommand" Click="RotateCounterClockwiseCommand_Click"/>
         </Menu>
+        <StackPanel DockPanel.Dock="Top" Margin="10" Orientation="Horizontal">
+            <TextBox x:Name="NameId" MinWidth="200" MaxWidth="400" Margin="2"></TextBox>
+            <Button x:Name="SelectAnnotation" Click="SelectAnnotation_Click" Margin="2">Select</Button>
+        </StackPanel>
         <pdfviewer:PdfViewerControl
             x:Name="Viewer"
             HorizontalAlignment="Stretch"

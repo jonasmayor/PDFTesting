@@ -16,7 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SyncFusionViewer
+namespace SyncFusionViewer4._8
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -28,6 +28,7 @@ namespace SyncFusionViewer
         private WebClient _webClient;
         private const string _uriPath = @"https://titan.kahua.com/markupfiles/";
         private bool _importingAnnotations = false;
+        private bool _selecting = false;
 
         private HashSet<string> _annotationNames = new HashSet<string>();
 
@@ -43,7 +44,7 @@ namespace SyncFusionViewer
             Viewer.StampAnnotationChanged += Viewer_StampAnnotationChanged;
             Viewer.StickyNoteAnnotationChanged += Viewer_StickyNoteAnnotationChanged;
             Viewer.HandwrittenSignatureChanged += Viewer_HandwrittenSignatureChanged;
-            
+
         }
 
         private void Viewer_HandwrittenSignatureChanged(object sender, Syncfusion.Windows.PdfViewer.HandwrittenSignatureChangedEventArgs e)
@@ -83,11 +84,23 @@ namespace SyncFusionViewer
 
         private void checkAnnotation(AnnotationChangedEventArgs e)
         {
-            if(!_importingAnnotations && e.Action == AnnotationChangedAction.Add
+            if (!_importingAnnotations && e.Action == AnnotationChangedAction.Add
                 && !_annotationNames.Contains(e.Name))
             {
                 _annotationNames.Add(e.Name);
             }
+            else if (e.Action == AnnotationChangedAction.Select)
+            {
+                NameId.Text = e.Name;
+                if(_selecting)
+                {
+                    Viewer.GotoPage(e.PageNumber);
+                }
+
+            }
+            else if (e.Action == AnnotationChangedAction.Deselect)
+                NameId.Text = string.Empty;
+
 
         }
 
@@ -96,12 +109,11 @@ namespace SyncFusionViewer
             var openFileDlg = new Microsoft.Win32.OpenFileDialog();
             openFileDlg.DefaultExt = ".pdf";
             openFileDlg.Filter = "Pdf documents (.pdf)|*.pdf";
-            
+
             if (openFileDlg.ShowDialog() == true)
             {
                 _fileNameWithPath = System.IO.Path.GetFileNameWithoutExtension(openFileDlg.FileName);
                 Viewer.Load(openFileDlg.FileName);
-                _fileNameWithPath = null;
             }
         }
 
@@ -151,7 +163,6 @@ namespace SyncFusionViewer
             if (!string.IsNullOrEmpty(_fileNameWithPath) && saveFileDialog.ShowDialog() == true)
             {
                 Viewer.ExportAnnotations(saveFileDialog.FileName, Syncfusion.Pdf.Parsing.AnnotationDataFormat.XFdf);
-                _fileNameWithPath = null;
             }
         }
 
@@ -160,7 +171,7 @@ namespace SyncFusionViewer
             for (int p = 0; p < Viewer.PageCount; p++)
             {
                 var page = Viewer.LoadedDocument.Pages[p];
-                for (int a = page.Annotations.Count-1; a >= 0; a--)
+                for (int a = page.Annotations.Count - 1; a >= 0; a--)
                 {
                     var annotation = page.Annotations[a];
                     if (_annotationNames.Contains(annotation.Name))
@@ -201,10 +212,10 @@ namespace SyncFusionViewer
 
         private void _webClient_DownloadDataCompleted(object sender, DownloadDataCompletedEventArgs e)
         {
-            
+
             File.WriteAllBytes($"{_fileNameWithPath}.pdf", e.Result);
             _webClient = null;
-            Dispatcher.Invoke(() => loadWithXfdf() );
+            Dispatcher.Invoke(() => loadWithXfdf());
         }
 
         private void loadWithXfdf()
@@ -257,8 +268,56 @@ namespace SyncFusionViewer
             {
                 _importingAnnotations = false;
             }
-            _fileNameWithPath = null;
             _downloadFile = null;
+        }
+
+        private void PageRotation_Click(object sender, RoutedEventArgs e)
+        {
+            var RotationAngle = Viewer.PageOrganizer.GetPageRotation(Viewer.CurrentPageIndex);
+            MessageBox.Show(RotationAngle.ToString());
+        }
+
+        private void Arrow_Click(object sender, RoutedEventArgs e)
+        {
+            if (Viewer.AnnotationCommand.CanExecute("Arrow"))
+                Viewer.AnnotationCommand.Execute("Arrow");
+            
+        }
+
+        private void RotateClockwise_Click(object sender, RoutedEventArgs e)
+        {
+            Viewer.PageOrganizer.RotateClockwise(new[] { Viewer.CurrentPageIndex });
+        }
+
+        private void RotateCounterClockwise_Click(object sender, RoutedEventArgs e)
+        {
+            Viewer.PageOrganizer.RotateCounterclockwise(new[] { Viewer.CurrentPageIndex });
+        }
+
+        private void RotateClockwiseCommand_Click(object sender, RoutedEventArgs e)
+        {
+            Viewer.PageOrganizer.RotatePagesClockwiseCommand.Execute(new[] { Viewer.CurrentPageIndex });
+        }
+
+        private void RotateCounterClockwiseCommand_Click(object sender, RoutedEventArgs e)
+        {
+            Viewer.PageOrganizer.RotatePagesCounterclockwiseCommand.Execute(new[] { Viewer.CurrentPageIndex });
+        }
+
+        private void SelectAnnotation_Click(object sender, RoutedEventArgs e)
+        {
+            if(!string.IsNullOrEmpty(NameId.Text))
+            {
+                try
+                {
+                    _selecting = true;
+                    Viewer.SelectAnnotation(NameId.Text);
+                }
+                finally
+                {
+                    _selecting = false;
+                }
+            }
         }
     }
 }
