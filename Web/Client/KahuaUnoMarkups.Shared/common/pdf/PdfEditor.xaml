@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="kahua.host.uno.common.pdf.PdfEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="using:kahua.host.uno.common.pdf"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             d:DesignHeight="300"
+             d:DesignWidth="400"
+             mc:Ignorable="d">
+    <StackPanel MinHeight="800">
+        <TextBox x:Name="DownloadsTextBox" HorizontalAlignment="Left"  Width="400" IsEnabled="false"/>
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="Load" Content="Load Viewer" Click="Load_Click"/>
+            <Button x:Name="Import" Content="Import Xfdf" Click="Import_Click" IsEnabled="false"/>
+            <Button x:Name="Export" Content="Export Xfdf" Click="Export_Click" IsEnabled="false"/>
+        </StackPanel>
+        <Grid x:Name="RootGrid"/>
+    </StackPanel>
+</UserControl>
