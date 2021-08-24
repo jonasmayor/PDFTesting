@@ -7,7 +7,9 @@
     iOS:Page.UseSafeArea="True"
              xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms">
     <ContentPage.Content>
-        
-        <syncfusion:SfPdfViewer x:Name="pdfViewerControl" MaximumZoomPercentage="999" IsToolbarVisible="True" />
+        <StackLayout>
+            <Button Text="Undo" VerticalOptions="Start" Command="{Binding PerformUndoCommand, Source={x:Reference Name=pdfViewerControl}}" IsEnabled="{Binding CanUndo, Source={x:Reference Name=pdfViewerControl}}" />
+        <syncfusion:SfPdfViewer VerticalOptions="FillAndExpand" x:Name="pdfViewerControl" MaximumZoomPercentage="999" IsToolbarVisible="True" />
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
