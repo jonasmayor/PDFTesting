@@ -44,7 +44,13 @@ namespace SyncFusionViewer4._8
             Viewer.StampAnnotationChanged += Viewer_StampAnnotationChanged;
             Viewer.StickyNoteAnnotationChanged += Viewer_StickyNoteAnnotationChanged;
             Viewer.HandwrittenSignatureChanged += Viewer_HandwrittenSignatureChanged;
+            Viewer.CurrentPageChanged += Viewer_CurrentPageChanged;
 
+        }
+
+        private void Viewer_CurrentPageChanged(object sender, EventArgs args)
+        {
+            
         }
 
         private void Viewer_HandwrittenSignatureChanged(object sender, Syncfusion.Windows.PdfViewer.HandwrittenSignatureChangedEventArgs e)
