@@ -45,17 +45,29 @@ namespace kahua.host.uno.common.pdf
             _control.ExportXfdf();
         }
 
+        private void Big_Load_Click(object sender, RoutedEventArgs e)
+        {
+            load(true);
+        }
+
         private void Load_Click(object sender, RoutedEventArgs e)
         {
-#if  RELEASE
+            load();
+        }
+
+        void load(bool bigDocument = false)
+        {
+
+#if RELEASE
             DownloadsTextBox.Text = "c:/websites/com.kahua.titan/markupfiles/xfdf/XFDF for web";
 #else
             DownloadsTextBox.Text = "c:/users/blindsey/downloads";
 #endif
-            var loaded = _control.LoadPdfViewer(DownloadsTextBox.Text.Replace("\\","/"));
-            if(loaded)
+            var loaded = _control.LoadPdfViewer(DownloadsTextBox.Text.Replace("\\", "/"), bigDocument);
+            if (loaded)
             {
                 Load.IsEnabled = false;
+                LoadBig.IsEnabled = false;
                 Import.IsEnabled = true;
                 Export.IsEnabled = true;
             }
