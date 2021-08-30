@@ -73,7 +73,7 @@ namespace kahua.host.uno.common.pdf
             this.ExecuteJavascript(javascript);
         }
 
-        public bool LoadPdfViewer(string path)
+        public bool LoadPdfViewer(string path, bool bigDocument = false)
         {
             if (string.IsNullOrEmpty(path))
             {
@@ -93,8 +93,26 @@ namespace kahua.host.uno.common.pdf
 #endif
             //serviceUrl = "https://ej2services.syncfusion.com/production/web-services/api/pdfviewer";
             //var documentPath = "https://www.clickdimensions.com/links/TestPDFfile.pdf";
+            var javascript = string.Empty;
+            if(bigDocument)
+            {
+                var bigDocumentPath = "c:/websites/com.kahua.titan/markupfiles/bigdocument.pdf";
+                javascript = $@"
+                (function(){{
+                    // initialize PDF Viewer component.
+                    ej.pdfviewer.PdfViewer.Inject(ej.pdfviewer.Toolbar, ej.pdfviewer.Annotation, ej.pdfviewer.TextSelection, ej.pdfviewer.TextSearch, ej.pdfviewer.Navigation, ej.pdfviewer.Print);
 
-            string javascript = $@"
+                    var pdfviewer = new ej.pdfviewer.PdfViewer({{
+                    serviceUrl: '{serviceUrl}',
+                    documentPath: '{bigDocumentPath}'
+                    }});
+
+                    pdfviewer.appendTo('#{htmlId}');
+                }})();";
+            }
+            else
+            {
+                javascript = $@"
                 (function(){{
                     // initialize PDF Viewer component.
                     ej.pdfviewer.PdfViewer.Inject(ej.pdfviewer.Toolbar, ej.pdfviewer.Annotation, ej.pdfviewer.TextSelection, ej.pdfviewer.TextSearch, ej.pdfviewer.Navigation, ej.pdfviewer.Print);
@@ -105,8 +123,8 @@ namespace kahua.host.uno.common.pdf
 
                     pdfviewer.appendTo('#{htmlId}');
                 }})();";
+            }
             this.ExecuteJavascript(javascript);
-
             return true;
         }
     }
