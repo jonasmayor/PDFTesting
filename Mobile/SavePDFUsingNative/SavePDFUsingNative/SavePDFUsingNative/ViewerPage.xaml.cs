@@ -21,6 +21,23 @@ namespace SavePDFUsingNative
             m_pdfDocumentStream = typeof(App).GetTypeInfo().Assembly.GetManifestResourceStream($"SavePDFUsingNative.Assets.{_documentName}Document.pdf");
             pdfViewerControl.LoadDocument(m_pdfDocumentStream);
             pdfViewerControl.DocumentSaveInitiated += PdfViewerControl_DocumentSaveInitiated;
+            pdfViewerControl.DocumentLoaded += PdfViewerControl_DocumentLoaded;
+
+        }
+
+        private void PdfViewerControl_DocumentLoaded(object sender, EventArgs args)
+        {
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                Import_PDFTronOnly_Clicked(null, null);
+            });
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+
+            pdfViewerControl.DocumentLoaded -= PdfViewerControl_DocumentLoaded;
         }
 
         private void PdfViewerControl_DocumentSaveInitiated(object sender, Syncfusion.SfPdfViewer.XForms.DocumentSaveInitiatedEventArgs args)

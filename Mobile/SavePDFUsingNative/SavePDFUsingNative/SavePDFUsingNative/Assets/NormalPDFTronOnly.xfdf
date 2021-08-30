@@ -1,58 +1,1342 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xfdf xmlns="http://ns.adobe.com/xfdf/" xml:space="preserve">
-	<annots>
-		<square style="solid" width="1" color="#FF0000" opacity="1" creationdate="D:20210715120220Z" flags="print" date="D:20210715120220Z" name="Kahua-065b9682-48c0-4074-96c8-a9df6a758974" page="0" rect="126.728,509.016,296.061,597.436" />
-		<ink style="solid" width="1" color="#FF0000" opacity="1" creationdate="D:20210715120226Z" flags="print" date="D:20210715120226Z" name="Kahua-bf5ba698-7b65-498d-8ef8-b1218ea2eb80" page="1" rect="136.928,107.155,265.586,182.534">
-			<inklist>
-				<gesture>201.257,168.985;209.072,165.07;209.072,165.07;212.98,162.461;215.586,161.156;218.191,158.546;220.796,157.241;226.007,153.326;228.612,150.716;232.52,149.412;235.125,146.802;239.033,144.192;242.941,141.582;246.849,137.667;250.757,135.058;253.362,133.753;257.27,131.143;258.572,131.143;261.178,129.838;262.48,129.838;263.783,129.838;265.086,131.143;265.086,135.058;265.086,140.277;265.086,146.802;263.783,150.716;262.48,157.241;258.572,161.156;255.967,165.07;253.362,168.985;249.454,172.9;244.243,175.51;240.336,178.119;237.73,179.424;233.822,182.034;231.217,182.034;228.612,182.034;227.309,182.034;224.704,182.034;223.401,182.034;222.099,182.034;220.796,182.034;219.493,180.729;215.586,178.119;214.283,178.119;210.375,171.595;209.072,168.985;207.77,163.765;207.77,158.546;207.77,153.326;207.77,146.802;207.77,141.582;209.072,137.667;211.678,132.448;214.283,128.533;215.586,125.923;218.191,123.313;220.796,122.009;224.704,120.704;226.007,119.399;229.914,118.094;233.822,118.094;235.125,116.789;237.73,116.789;239.033,116.789;240.336,116.789;244.243,116.789;245.546,116.789;248.151,118.094;250.757,123.313;250.757,125.923;250.757,129.838;250.757,135.058;250.757,138.972;250.757,142.887;248.151,145.497;245.546,149.412;242.941,150.716;240.336,153.326;233.822,157.241;227.309,159.851;222.099,161.156;216.888,165.07;211.678,167.68;203.862,167.68;197.349,168.985;190.836,168.985;184.322,168.985;177.809,167.68;171.296,165.07;163.48,161.156;156.967,157.241;150.454,153.326;146.546,149.412;142.638,146.802;140.033,142.887;138.73,140.277;137.428,136.362;137.428,133.753;137.428,131.143;137.428,127.228;137.428,125.923;137.428,124.618;137.428,123.313;138.73,123.313;138.73,122.009;140.033,122.009;141.336,122.009;143.941,122.009;146.546,122.009;151.757,122.009;156.967,122.009;160.875,123.313;167.388,124.618;173.901,127.228;180.414,129.838;184.322,132.448;188.23,135.058;190.836,140.277;192.138,144.192;193.441,149.412;193.441,153.326;193.441,158.546;192.138,163.765;189.533,167.68;188.23,170.29;185.625,171.595;184.322,172.9;183.02,174.205;181.717,174.205;180.414,174.205;179.112,172.9;176.507,170.29;173.901,165.07;172.599,161.156;171.296,155.936;169.993,149.412;169.993,144.192;169.993,137.667;169.993,132.448;171.296,127.228;175.204,122.009;176.507,120.704;180.414,116.789;185.625,114.179;190.836,111.569;196.046,107.655;199.954,107.655;199.954,107.655</gesture>
-			</inklist>
-		</ink>
-		<freetext TextColor="#FF0000" style="solid" width="0" opacity="1" creationdate="D:20210715120230Z" flags="print" date="D:20210715120230Z" name="Kahua-c05d71a5-b7ab-4edb-a58c-e28f72431de6" page="1" rect="127.007,285.122,274.204,376.465">
-			<defaultstyle>font: Helvetica 11pt;color: #FF0000</defaultstyle>
-			<defaultappearance> 1 0 0 RG 0 0 1 rg /Helv 11 Tf </defaultappearance>
-			<contents>TEst 123</contents>
-			<apref y="376.465" x="127.007" gennum="0" objnum="231" />
-		</freetext>
-		<text color="#FFFF00" creationdate="D:20210715120236Z" flags="print,nozoom,norotate" date="D:20210715120236Z" name="Kahua-555603b1-8469-4bfb-8836-60612d03f2fa" icon="Comment" page="1" rect="635.033,386.478,655.033,406.478">
-			<popup date="D:20210715120236Z" page="1" rect="635.033,386.478,655.033,406.478" />
-			<contents>Wgat  asdf asdf </contents>
-			<apref y="406.478" x="635.033" gennum="0" objnum="272" />
-		</text>
-		<polygon intensity="2" style="cloudy" width="2" color="#FF0000" opacity="1" creationdate="D:20210715120252Z" flags="print" IT="PolygonCloud" date="D:20210715120252Z" name="Kahua-f01b97c7-3957-40d0-8638-5a15f8a5b503" page="2" rect="130.303,177.88,478.945,400.658">
-			<vertices>203.862,381.684;410.98,390.819;468.296,249.889;304.164,188.559;141.336,272.072</vertices>
-		</polygon>
-		<text color="#FFFF00" creationdate="D:20210715120256Z" flags="print,nozoom,norotate" date="D:20210715120256Z" name="Kahua-6ca9a984-dc88-48ea-a21c-fa006dc856da" icon="Comment" page="2" rect="668.901,109.838,688.901,129.838">
-			<popup date="D:20210715120256Z" page="2" rect="668.901,109.838,688.901,129.838" />
-			<contents>Test 2</contents>
-			<apref y="129.838" x="668.901" gennum="0" objnum="281" />
-		</text>
-		<polygon style="solid" width="1" color="#FF0000" opacity="1" creationdate="D:20210715120311Z" flags="print" date="D:20210715120311Z" name="Kahua-532f710d-d5a6-42de-acf1-6300c96c8a01" page="2" rect="0,0,183.02,174.205">
-			<vertices>81.4145,174.205;183.02,129.838</vertices>
-		</polygon>
-		<polygon style="solid" width="1" color="#FF0000" opacity="1" creationdate="D:20210715120319Z" flags="print" date="D:20210715120319Z" name="Kahua-010b1f08-5c6c-4060-98a6-a1efc1667a72" page="2" rect="0,0,212.98,192.473">
-			<vertices>107.467,192.473;212.98,140.277</vertices>
-		</polygon>
-		<polygon style="solid" width="1" color="#FF0000" opacity="1" creationdate="D:20210715120323Z" flags="print" date="D:20210715120323Z" name="Kahua-d5cd645d-3513-470a-a3f8-e5e7d1ff7511" page="2" rect="140.243,100.045,212.77,209.217">
-			<vertices>168.691,204.217;207.77,144.192;145.243,105.045</vertices>
-		</polygon>
-		<circle style="solid" width="1" color="#FF0000" opacity="1" creationdate="D:20210715120334Z" flags="print" date="D:20210715120334Z" name="Kahua-02a7beb2-8510-43e2-b743-e0ea98866450" page="2" rect="250.757,51.5437,495.651,102.435" />
-		<polygon style="solid" width="1" color="#0000FF" opacity="1" creationdate="D:20210715120352Z" flags="print" date="D:20210715120352Z" name="Kahua-d08fd08f-75c7-42c4-87f4-0907a49ec74d" page="3" rect="200.164,349.281,406.862,509.345">
-			<vertices>401.862,504.345;399.257,407.783;276.809,354.281;205.164,407.783</vertices>
-		</polygon>
-		<freetext TextColor="#0000FF" style="solid" width="0" opacity="1" creationdate="D:20210715120400Z" flags="print" date="D:20210715120400Z" name="Kahua-19c363e4-fbd0-49f0-adef-dd85ce6af21e" page="3" rect="551.664,439.1,674.112,525.224">
-			<defaultstyle>font: Helvetica 11pt;color: #0000FF</defaultstyle>
-			<defaultappearance> 1 0 0 RG 0 0 1 rg /Helv 11 Tf </defaultappearance>
-			<contents>TEst 2334</contents>
-			<apref y="525.224" x="551.664" gennum="0" objnum="310" />
-		</freetext>
-		<line style="solid" width="1" color="#0000FF" opacity="1" creationdate="D:20210715120413Z" flags="print" start="80.1118,443.015" end="258.572,525.224" date="D:20210715120413Z" name="Kahua-afdb8a0f-9043-48ba-b1de-93956b7b993a" page="3" rect="79.9026,442.561,258.782,525.678" />
-		<line style="solid" width="1" color="#0000FF" opacity="1" creationdate="D:20210715120417Z" flags="print" start="555.572,349.714" end="683.23,428.661" head="OpenArrow" tail="None" date="D:20210715120417Z" name="Kahua-0b9dfbcf-1b3e-4b26-9e3f-1ea3e6054cdc" page="3" rect="554.722,349.188,683.493,429.086" />
-	</annots>
-	<pages>
-		<defmtx matrix="1.333333,0.000000,0.000000,-1.333333,0.000000,1056.000000" />
-		<pgmtx matrix="1.333333,0.000000,0.000000,-1.333333,0.000000,816.000000" page="1" />
-		<pgmtx matrix="1.333333,0.000000,0.000000,-1.333333,0.000000,816.000000" page="2" />
-		<pgmtx matrix="1.333333,0.000000,0.000000,-1.333333,0.000000,816.000000" page="3" />
-	</pages>
-	<pdf-info import-version="3" version="2" xmlns="http://www.pdftron.com/pdfinfo" />
+<?xml version="1.0" encoding="utf-8"?><xfdf xml:space="preserve" xmlns="http://ns.adobe.com/xfdf/">
+  <annots>
+    <square page="0" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="4dea63dd-ad64-4847-838c-080313ed3977" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="0" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="bd4cfabf-7daf-49a4-ad4b-d22fb063dbf5" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="0" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="10fed8c5-10cd-4f76-bc86-aa975da6bb54" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="0" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="53a77156-971e-4f4c-ac82-ba74fdae37b8" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="0" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="297088fd-389b-4756-973f-0f50d3a521de" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="0" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="2fc34828-721f-481c-836e-d55d29fa5bd6" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="0" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="3bf97674-00a1-4c91-9a6f-38ac1e041f27" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="0" rect="55,179,68,206" title="AutoCAD SHX Text" color="#000000" flags="print" name="9027d2f6-cd58-4855-b4df-adfba59a5125" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="0" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="e892cada-2ccf-4060-9f38-d41277adf71c" width="0">
+      <contents>02</contents>
+    </square>
+    <ink page="1" rect="176,465,647,1007" color="#FF6A6A" flags="print" name="Kahua-33addfbe-fcdf-43e0-991d-bbc0a3623ef7" width="2">
+      <inklist>
+        <gesture>641.2433,891.5974,637.8584,877.3806,631.7655,867.9026,622.9646,855.0398,612.1328,838.7921,597.916,819.8363,583.0221,800.2036,567.4514,780.5708,551.2036,761.6151,534.9557,741.9823,519.3849,723.7036,503.8141,705.4248,487.5664,686.4691,473.3495,668.8672,448.3009,634.3407,438.823,618.0929,430.6991,603.1991,424.6062,588.9823,415.8053,563.9337,413.7743,551.7478,412.4203,540.916,412.4203,530.084,412.4203,519.9292,413.7743,510.4513,418.5133,500.9734,425.9602,491.4956,434.761,485.4026,444.239,481.3407,454.3938,477.2787,463.8717,474.5708,473.3495,471.8628,483.5044,469.8318,492.3053,469.1549,502.4602,469.1549,513.2921,469.1549,522.7699,469.1549,533.6017,473.8938,545.7876,481.3407,558.6505,490.1416,572.8672,502.3274,587.761,517.2213,601.3009,533.4691,613.4868,550.3938,624.9956,569.3495,631.7655,586.2744,637.1814,603.1991,640.5663,621.4779,641.2433,637.7256,641.2433,654.6505,637.8584,671.5752,630.4115,686.4691,620.9337,699.3318,609.4248,712.1947,596.562,720.9956,582.3452,728.4425,566.7744,735.2124,550.5266,738.5974,534.2787,741.3053,515.323,742.6593,495.6903,742.6593,475.3805,742.6593,453.0398,743.3363,432.7301,744.6902,412.4203,745.3672,391.4336,747.3983,371.1239,749.4292,348.7832,752.1371,325.0885,756.1991,304.1018,760.938,281.761,766.354,262.8053,773.8009,245.8805,782.6017,228.9557,793.4337,216.0929,805.6194,203.9071,820.5132,194.4292,837.438,187.6593,853.6859,183.5974,870.6106,180.8894,888.2124,180.8894,907.1682,183.5974,928.8318,190.3673,953.8806,198.4911,978.2522,207.969,1001.947</gesture>
+      </inklist>
+    </ink>
+    <square page="1" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="cc7bdb27-35b3-40a5-9402-5ae9e7b9ae37" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="1" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="87fc2f56-622e-444d-8358-5ff23afb072b" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="1" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="8a38baad-1c02-41f3-9789-468228ea0342" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="1" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="c45f2d39-7558-441f-9cb7-3ab214fd8356" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="1" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="14dabb31-3397-4bd6-878c-867a4bd5c7de" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="1" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="b2de0a55-06d4-42f9-969a-671d7380fe5a" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="1" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="30c270fc-5ede-4753-8805-f85a58dc1207" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="1" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="3106d872-5466-47d3-a7f1-fd76869f5bfc" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="1" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="e999553e-c8d4-4d98-99d2-fc83bc75076b" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="2" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="15c67b6f-1dba-4956-9466-2e08cd29b433" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="2" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="d86769a6-9178-410c-ab4a-509b9699b6d9" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="2" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="ee3d0ee3-9958-49cf-a022-774d3e02f663" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="2" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="5ff3d5ba-080d-4f44-97e5-4f5805287d44" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="2" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="89d39f95-a2c0-40ce-8c9f-a35b651a8e36" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="2" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="4edaf5d1-507e-4492-8f8c-1c824b596525" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="2" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="d5f32bb7-ca00-4810-acd7-904160ef0c60" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="2" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="65aecf25-0283-4da6-8752-85de283c8401" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="2" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="7acc6144-8273-4c92-afb3-9851f658b03c" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="3" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="eb852115-b444-4e93-829b-01540870e44f" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="3" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="724b7996-ab4f-4674-9f40-d5d3d4497416" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="3" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="4f1f9ed1-08af-4b39-8765-175ee797ac00" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="3" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="04ee2447-e8d4-4c40-80be-b2f1915821d2" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="3" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="91786128-76ff-47c8-a561-c53a24ae6be3" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="3" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="8553256a-471a-482e-bd57-f3c7e7270bd1" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="3" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="013b3a06-5bd7-4528-be77-a2579f1470b8" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="3" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="20675387-e0fe-4b95-9582-e96e73adc5a3" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="3" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="5738a52b-6d41-4a3f-8265-d816a8f6d0d2" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="4" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="ff5b1028-9546-4d7c-900e-00acbc707d12" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="4" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="8bb9d9d2-d9ed-47c4-adfa-e5448764b037" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="4" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="dc6bec84-0bbe-41fd-a3d2-3cf7fbabf4b6" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="4" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="1cb64623-3dc8-4025-999d-2ab783bd2466" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="4" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="5b98a6fc-da60-4067-9643-de3e6bb1cd17" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="4" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="0a2181f6-ae24-49cd-94be-8f2719e48527" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="4" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="508290a6-a0a2-4724-8b44-b5c3a7a12d49" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="4" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="b62f52d5-2438-4e81-ad76-93fc01287b7f" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="4" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="7b4b83d5-5bdb-4af9-917c-031ea6e90825" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="5" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="ddadd46d-6cc5-4b83-bc4a-5f0929b65fba" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="5" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="26952541-6f3b-489b-9771-bff672a80a51" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="5" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="c8b4918c-7f6d-4dba-8d68-4faf4597daa3" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="5" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="6449e15b-c78d-402d-b4a6-28866bc928f0" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="5" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="f466e3a4-4eb5-4c61-965c-5ec52c3c9483" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="5" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="c76ed1b4-a690-46af-805d-ce6506935da6" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="5" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="2c52b31f-2fe3-4f44-aeb4-50484fab20e8" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="5" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="23a30076-44d1-400e-b2fe-4946f9433ff9" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="5" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="641ee8b5-dc59-4633-a9ae-c369afd5b6c1" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="6" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="e17e2f43-1abe-424f-a5d1-e39bc613322c" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="6" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="9781a0f4-2d21-43fe-aa50-14f5dc311fef" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="6" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="590cb6ec-2eea-4dd0-973f-ef99c77dc5ce" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="6" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="4289795f-3e48-43c0-8e1f-b3f49fdf3d83" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="6" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="d0357ad4-9517-4252-b1cc-03ee29236d46" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="6" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="8919bb22-6487-4a55-a375-300c10635aa5" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="6" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="b78f474c-7f38-4466-9ba3-dea8b147d457" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="6" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="2e16b22a-6c8f-4124-8ce7-8832880ffbeb" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="6" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="e1573865-bb2c-4a48-a11b-958145a229c6" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="7" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="481d37b5-adf8-450c-911d-0f270f1dba3b" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="7" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="fa3336fe-1808-4fa1-9b47-8e1713e709c5" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="7" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="267fdac8-0940-4442-abb8-9aa9c685a292" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="7" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="89794bc3-370f-4e44-9c8e-8360a5a9cb3c" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="7" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="a88ed06c-442f-4e95-ba93-84ffc8a04c16" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="7" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="fd91e0fd-d3ea-4869-a4b0-74940919881d" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="7" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="bde36ee6-7de5-4786-b8da-888d1ca9e2fb" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="7" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="24546ff0-cce9-498d-9bf5-648083510d0c" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="7" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="be8407e6-87f4-4bf1-b33e-0fedbfb477d1" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="8" rect="446,985,452,991" title="AutoCAD SHX Text" color="#000000" flags="print" name="188cff07-4dab-462c-9190-2019579ec15e" width="0">
+      <contents>K-118-4</contents>
+    </square>
+    <square page="8" rect="446,985,452,991" title="AutoCAD SHX Text" color="#000000" flags="print" name="905e5732-b746-4a0b-b421-a64bdf885f1d" width="0">
+      <contents>ANTIQUE</contents>
+    </square>
+    <square page="8" rect="446,985,452,991" title="AutoCAD SHX Text" color="#000000" flags="print" name="e6083ba5-76b3-4918-9e59-796fab4c6619" width="0">
+      <contents>FAUCETS</contents>
+    </square>
+    <square page="8" rect="446,985,452,991" title="AutoCAD SHX Text" color="#000000" flags="print" name="43614e85-373a-4c11-80ba-ba7c0ff3a82d" width="0">
+      <contents>BRASS</contents>
+    </square>
+    <square page="8" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="78c924a6-ffdc-43ae-b54c-2e72b87c6c48" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="8" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="40bf6cea-d91b-4e32-a415-85aba87348c1" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="8" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="b0570f78-070b-45cb-8667-e96fa9f4b7ab" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="8" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="45e1f691-e6aa-4be3-876b-e5eda9e3363c" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="8" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="f8d35142-1859-4a64-9fb3-579c36f1adcb" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="8" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="da17e03f-b0c9-4943-a6c5-bfbac585c6f7" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="8" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="5d59604b-0a2c-4732-b684-45108d928ee9" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="8" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="af662420-636a-48bf-a66c-82f24a6f09b2" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="8" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="407269d5-d123-400a-b361-5176a16b2e00" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="9" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="b9855a87-e927-42dc-8554-041cbe01d361" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="9" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="25807551-a30a-4399-97ac-24ca1a7ee98d" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="9" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="5c103ec1-6e8f-49c4-bfa5-630d65fc0341" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="9" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="9e5cfdca-002e-453e-b8d1-78fe2e6d0bf2" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="9" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="55b102a5-f947-40de-bf4f-d1e360f4fa2f" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="9" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="a7b61edf-2359-415a-a3cf-2f6ec63e614c" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="9" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="d1529f6a-0c22-4caf-aa4a-46daa8da35c5" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="9" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="e4cb4018-1d6a-4d00-bded-e77d0f93062f" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="9" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="f7fdab84-061c-4354-b938-6e8cc8b27635" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="10" rect="308,924,314,930" title="AutoCAD SHX Text" color="#000000" flags="print" name="4fa129b0-9d60-44e0-9f5d-354779890b10" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="10" rect="308,924,314,930" title="AutoCAD SHX Text" color="#000000" flags="print" name="7cb137cc-c2d9-418d-839b-d6e89a5fac74" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="10" rect="308,924,314,930" title="AutoCAD SHX Text" color="#000000" flags="print" name="f6097b06-fcf9-441b-800e-6cf76b278be2" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="10" rect="308,924,314,930" title="AutoCAD SHX Text" color="#000000" flags="print" name="6c11c1b5-42c3-440e-8508-179dc8a0d2ed" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="10" rect="662,731,668,737" title="AutoCAD SHX Text" color="#000000" flags="print" name="15c7a5a2-0d94-4fcc-9d44-4cd542bef72f" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="10" rect="662,731,668,737" title="AutoCAD SHX Text" color="#000000" flags="print" name="d1f8f067-a196-41b4-bae3-655e4028fcd8" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="10" rect="662,731,668,737" title="AutoCAD SHX Text" color="#000000" flags="print" name="93de5898-2b57-4fa4-b213-7472ed963144" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="10" rect="662,731,668,737" title="AutoCAD SHX Text" color="#000000" flags="print" name="0bf38814-57d6-404e-8a3f-ce822daa323c" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="10" rect="308,528,314,534" title="AutoCAD SHX Text" color="#000000" flags="print" name="5f71ec23-bf58-4e2f-8e32-67d7a4f6ce2e" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="10" rect="308,528,314,534" title="AutoCAD SHX Text" color="#000000" flags="print" name="00d9101e-f798-48c9-b0db-71e2fdaa7992" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="10" rect="308,528,314,534" title="AutoCAD SHX Text" color="#000000" flags="print" name="31b00937-435d-4f97-9395-677c74ecfdb6" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="10" rect="308,528,314,534" title="AutoCAD SHX Text" color="#000000" flags="print" name="2bd455d7-c724-4f0f-81ab-4c0045ab24c9" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="10" rect="305,925,311,931" title="AutoCAD SHX Text" color="#000000" flags="print" name="750f51e0-fd66-4439-b229-f20107a90910" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="10" rect="305,925,311,931" title="AutoCAD SHX Text" color="#000000" flags="print" name="d12740bf-7350-44bf-92ab-77d5945009f6" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="10" rect="305,925,311,931" title="AutoCAD SHX Text" color="#000000" flags="print" name="eb0fe14d-fd66-48d8-af02-9ab874394a58" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="10" rect="305,925,311,931" title="AutoCAD SHX Text" color="#000000" flags="print" name="e7496742-50f8-494c-98d3-317b70ef266b" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="10" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="3e9864e8-3c0d-4abf-a416-53bbd9bf0d23" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="10" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="bde5326d-e3d0-4813-932f-6783abbff417" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="10" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="df044173-e9c9-42f1-82ae-a1caee534482" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="10" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="3c65944a-06b2-4e14-a00e-81702c634b5c" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="10" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="669dd3fb-618f-41c2-8924-8a517f64f1c0" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="10" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="f009d86e-e5df-42bb-a2f5-9c3a398d9feb" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="10" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="082e778b-ed0e-4ff1-9dfe-4093f0dff909" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="10" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="49786d3b-e0bc-431a-83cc-d53c0d644130" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="10" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="7c0d285a-28ea-4a5e-a9c1-0b9fad2d2e1f" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="11" rect="441,1028,447,1034" title="AutoCAD SHX Text" color="#000000" flags="print" name="daf9483c-d6f3-47e7-a92c-9aeb15fad27d" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="11" rect="441,1028,447,1034" title="AutoCAD SHX Text" color="#000000" flags="print" name="996eac72-eb60-4aa4-8dd1-e2e2c6904edc" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="11" rect="441,1028,447,1034" title="AutoCAD SHX Text" color="#000000" flags="print" name="93344303-6668-4f0f-adbe-40d7a305627f" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="11" rect="441,1028,447,1034" title="AutoCAD SHX Text" color="#000000" flags="print" name="76bba27a-38cc-4479-b2cd-16a94213c5a4" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="11" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="1310f59b-4688-4e8e-9a8f-45cf6656600a" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="11" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="c81f76d7-e952-4ff6-bc6e-a80e9b8dd989" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="11" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="97b38545-38eb-4c01-908d-d99be77ea2ce" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="11" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="384a18da-8304-4c8d-b22a-f130aed50a1c" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="11" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="065e0d5c-4f0f-483b-9713-6e7a3581ac76" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="11" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="303bec49-a6b7-4375-9c5a-933c4a278ebf" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="11" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="e52af8e4-687c-4154-9ce2-db0cc06caea2" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="11" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="1676ea1a-e993-4daa-894c-57f4dd6d76dd" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="11" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="320b6ac9-f155-4d21-a74d-0501224f76dc" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="12" rect="306,745,312,751" title="AutoCAD SHX Text" color="#000000" flags="print" name="213e84c1-8ea9-4cab-9a7c-488011b75b9a" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="12" rect="306,745,312,751" title="AutoCAD SHX Text" color="#000000" flags="print" name="545ec674-3593-4ed0-8d94-b05d1be767c5" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="12" rect="306,745,312,751" title="AutoCAD SHX Text" color="#000000" flags="print" name="a0340f7c-e6da-48b6-8153-9101822f8771" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="12" rect="306,745,312,751" title="AutoCAD SHX Text" color="#000000" flags="print" name="c85f13a7-33e8-49d5-b98d-1619058d76dc" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="12" rect="622,748,628,754" title="AutoCAD SHX Text" color="#000000" flags="print" name="dd1368e3-6331-41f2-b53c-e290805745fc" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="12" rect="622,748,628,754" title="AutoCAD SHX Text" color="#000000" flags="print" name="6784c242-c580-463d-a665-265595ab6d09" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="12" rect="622,748,628,754" title="AutoCAD SHX Text" color="#000000" flags="print" name="fd2fee31-9c24-4ed9-b4ec-a59d4f792aba" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="12" rect="622,748,628,754" title="AutoCAD SHX Text" color="#000000" flags="print" name="6fa395a9-6e37-414c-9706-13330f0ced21" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="12" rect="309,745,315,751" title="AutoCAD SHX Text" color="#000000" flags="print" name="fe0b05d6-787d-4ea7-bd78-e75889e23d16" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="12" rect="309,745,315,751" title="AutoCAD SHX Text" color="#000000" flags="print" name="fd62ab41-c821-4df4-a349-5bc20e10385d" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="12" rect="309,745,315,751" title="AutoCAD SHX Text" color="#000000" flags="print" name="86f0e973-9ef6-43a7-9fe6-1ec773b484ad" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="12" rect="309,745,315,751" title="AutoCAD SHX Text" color="#000000" flags="print" name="d19ae68f-5b81-4924-a899-b6a0d029b04f" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="12" rect="663,748,669,754" title="AutoCAD SHX Text" color="#000000" flags="print" name="918f2e54-0fbb-4423-9b67-81844cc21148" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="12" rect="663,748,669,754" title="AutoCAD SHX Text" color="#000000" flags="print" name="8dd88fb3-aff0-4cfc-a39d-bbd0626e59c9" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="12" rect="663,748,669,754" title="AutoCAD SHX Text" color="#000000" flags="print" name="c29aa6e7-2f87-48a5-b12f-4c472ff03f82" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="12" rect="663,748,669,754" title="AutoCAD SHX Text" color="#000000" flags="print" name="2b50e364-8452-46ee-85e3-4a4f10d8bf1f" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="12" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="4b071e2b-919a-48a3-8630-cfe64a299acb" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="12" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="801cb97a-2890-4035-a7ad-7b468dd980da" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="12" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="ee2d2afc-2802-48ce-9313-b62c9a49b699" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="12" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="c0f18706-7738-49dd-93ff-e862aac459e1" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="12" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="e10ab4f7-3363-479b-9db9-eec7b179b53b" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="12" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="801b05dd-5c21-47c3-a4f7-5acc980d4008" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="12" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="415bbad9-f1fb-40a9-b16c-7bfacfae4893" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="12" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="acdaaef9-e346-45e7-a497-8d15f357ad4c" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="12" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="d5284fb7-3f28-4843-b246-c6320de27b23" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="13" rect="426,1017,432,1023" title="AutoCAD SHX Text" color="#000000" flags="print" name="c6542fb6-16f0-43ea-88aa-c2fb1e872bf5" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="13" rect="426,1017,432,1023" title="AutoCAD SHX Text" color="#000000" flags="print" name="097f500c-6c47-4ea5-a3e0-bc0b328ac6d5" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="13" rect="426,1017,432,1023" title="AutoCAD SHX Text" color="#000000" flags="print" name="003e4956-331e-4a50-b896-68e277d89401" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="13" rect="426,1017,432,1023" title="AutoCAD SHX Text" color="#000000" flags="print" name="1e4289f0-89c6-460a-b8f0-62d5721e9a5e" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="13" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="7e1511d4-eb96-4db7-916d-c9caca317241" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="13" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="f12b5971-2c08-49eb-9a65-55c4c0030eb6" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="13" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="42813f34-efdf-4fb3-8824-f27a30587c81" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="13" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="0e277d22-e715-40be-b4ef-9447b767520e" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="13" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="d42e76c4-e7fe-434b-819b-97d388d4a718" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="13" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="ed366360-6bbc-4f65-aab5-9fa26a8ff24e" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="13" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="dc93abe0-0e3b-4b6f-8d2a-cbf6d1d799fe" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="13" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="93efbabb-7fa8-4adf-ad92-952df2bceea3" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="13" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="49ed0419-52b1-447d-b12d-e224ef781c6a" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="14" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="644af08e-f4a0-441d-8666-9a7108add28c" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="14" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="3c00fc87-be00-4732-8892-5c17db5b2e05" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="14" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="45c03cf8-7684-400b-b11e-674b134d3be7" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="14" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="6f988736-8798-4830-b0fa-ba85fd06f602" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="14" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="cafc2d04-5c4d-4cd1-a186-7c3f316d143b" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="14" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="64b27ddb-3e19-44be-b2fe-905dd83dd30d" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="14" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="318df0fc-a4c9-4429-ab35-2f49000e48f8" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="14" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="c5066a3f-3f53-48e1-9e59-8c106e5e8e96" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="14" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="05f3e7df-0c2e-439e-831f-11cd4dfc545c" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="15" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="eebc4dee-b794-4fa9-be93-7e4448caf00b" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="15" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="278de3b6-bec2-4b2d-8775-13aba15a7416" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="15" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="ebf9fb64-a618-469d-9a5b-675ea9ace36c" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="15" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="0c0b5546-7590-4494-b997-e27486214017" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="15" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="cb07d996-2a00-433c-b570-3f5e4c4d52cc" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="15" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="64f770b3-b03b-4443-ad89-3eaa6db0d004" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="15" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="0361cbab-2afb-4dec-8bdf-9528f7f2f4f8" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="15" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="f2510847-6ca7-40ed-85df-4c2951f34dbe" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="15" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="f6c36590-3234-4954-8dd0-342ba39269d3" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="16" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="5a61d1a8-dc4f-4fec-9f59-476d54c24dae" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="16" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="d434a260-0f02-4335-9451-b575146141fb" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="16" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="96ed9bbb-5ffe-4a9f-974b-6b4d7a3a5500" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="16" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="5f15515d-b602-4db0-ab4b-7799d81b4f85" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="16" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="932fc8a9-93fe-43a9-99a9-7aeaef3c74bb" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="16" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="0e81cc6a-8b68-4471-b4bb-db1f8e0277c4" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="16" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="74b9ef17-2be2-44ce-9439-706700344e31" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="16" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="9176db0e-b0ba-46c9-b353-235e4f3c320f" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="16" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="a33d287c-566c-4a9c-84fc-2feb1e692d63" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="17" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="8136fd78-ccda-495a-9891-b33379b00aa8" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="17" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="a7e849be-982e-46a6-a149-475b63d0beba" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="17" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="d82af7fc-0c4b-4525-9c1c-8f214cc12490" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="17" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="5aa7a3a5-a452-4335-83c1-e5d65fa03c14" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="17" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="f7a18718-32e8-4318-90df-5677eb17ad80" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="17" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="055ff275-d5fd-4945-b293-8b7efe0adb7c" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="17" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="ea67f8bb-0ca7-45e1-80fd-826a8b0ecd03" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="17" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="4b78d4a1-c78b-4f0e-9dd7-5e85acaed0bd" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="17" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="cf366447-8c3d-456a-9b91-a4e91f824b6a" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="18" rect="610,257,616,263" title="AutoCAD SHX Text" color="#000000" flags="print" name="606c22cb-beab-4d91-adb0-71006e9a024d" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="18" rect="610,257,616,263" title="AutoCAD SHX Text" color="#000000" flags="print" name="a7337315-d95c-4720-9e47-37d0ebdabc42" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="18" rect="610,257,616,263" title="AutoCAD SHX Text" color="#000000" flags="print" name="f1846da1-5a1d-48c4-9273-b60b6f8db280" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="18" rect="610,257,616,263" title="AutoCAD SHX Text" color="#000000" flags="print" name="ca27d4a3-674a-4536-950c-1b42168cf6d7" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="18" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="ec796cc6-b2ce-449c-a810-90c0d2a6593e" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="18" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="545c9944-da31-418c-b242-82995ba844ac" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="18" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="02d685c0-dc90-423f-a90c-c974d85a4a13" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="18" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="3fb825b5-05c6-4924-b653-098abaa4a0b9" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="18" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="0d29bedf-279d-40c9-bbc9-150757653030" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="18" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="477956be-06df-441c-a5cf-a2e77af7e0c5" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="18" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="00f3943b-7079-40b7-8d33-cbf754a5c53d" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="18" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="be1baf8d-1cd9-4bfd-af74-5d8cc1601328" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="18" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="c46c378b-b045-49ea-87bd-48a5d6638174" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="19" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="e6392d55-54b4-4d1d-afdc-879965efe00a" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="19" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="bc97e00d-5fe7-4316-a23f-f524a4d0c691" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="19" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="4ce70f2b-1389-45e0-8e9e-fff074497807" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="19" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="f5fe8b9a-abff-4e02-84c0-3a75e050a72f" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="19" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="cc3eb365-0213-4f6d-be9d-483ee28004d9" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="19" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="c4bfc94a-10d0-4895-877c-42bec5049078" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="19" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="3de5f18b-4105-4681-b244-4a55386a0626" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="19" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="6abdb3c7-f8fd-4983-8a44-83bf24894d46" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="19" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="735e75db-7135-4ee2-8787-f7ff35f8dd72" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="20" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="2461e52f-1335-4b33-9f89-72594c55a88e" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="20" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="ef1e398f-d774-48f1-b1db-9451dfe50389" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="20" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="c09aadb3-2e00-47ae-b47c-ee3dc68ae0c0" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="20" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="e48e093c-d90d-45cd-b996-25213725684c" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="20" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="c463c069-88fc-473f-9624-3bb2665a7913" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="20" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="fa194972-662b-48eb-a7dc-7ce979415515" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="20" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="4bee85e2-276e-48b9-b68f-2932d96f7234" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="20" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="ad092f04-db1d-4e88-b4aa-ec3a7ee7c877" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="20" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="415ec3ee-fd82-49d2-b65a-e633b9f582d7" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="21" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="6a5ed4a8-84e2-45fa-89ba-615e88833c38" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="21" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="c6312078-11da-434d-b408-e14f4a24fcc1" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="21" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="69d1052d-94d5-4f63-91e5-74aca5ef26ce" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="21" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="90d9927a-c9e6-482f-96b3-8a2f1f245cc3" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="21" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="6b4be78a-3a13-4f90-b82d-3074267e8aa1" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="21" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="9f103ad6-cbe3-4847-99bd-9b5063aaf2b1" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="21" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="20aa1d6f-6e12-494d-8d8c-17788600072e" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="21" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="e9170d2d-f1e6-4cc7-a0d0-84fc4acaf9d6" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="21" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="d28fba68-68fa-4a12-85c5-64c245814e9c" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="22" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="20a3a561-a25c-48a9-8ade-75ee7625ce5a" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="22" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="f70b6d75-50ed-4435-9294-9616efdecd00" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="22" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="f3560c13-c77b-41cd-ac9f-c1dcf85aa749" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="22" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="5522a2b6-1800-416a-9f13-e5d4386c3ed5" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="22" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="16d7b55b-3886-4af7-a436-68c53e18afa6" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="22" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="3ffac0f8-aff2-414b-aa2a-df47ddd2894d" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="22" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="03193dc6-6de3-4784-8a79-b4348a0210b3" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="22" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="ae4f87cc-0e64-4fc4-9ba9-ea418ea7b759" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="22" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="8916d66e-903e-41ec-b409-6528edb72fa4" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="23" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="3e36466c-c3d6-4ddf-8606-33c145add609" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="23" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="cab1ecde-0778-4ab6-bb8e-a10448b493ca" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="23" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="eeb90ea0-b4ff-4473-8277-914cfcc8e889" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="23" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="d04344f2-819c-43f3-a16d-5e321f45e5f2" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="23" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="7df69f29-7a96-419e-bee3-b0cd4b3a5305" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="23" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="e0d37ccf-9f3a-4af5-bcd4-67decd6ba4a9" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="23" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="75c6a5f7-82ef-4b29-ae91-20c143886124" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="23" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="c7004975-1df0-42e5-9ad0-119c89dc2fdc" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="23" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="78b3ff15-aa54-4b53-b75c-b8e64b5cbddc" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="24" rect="615,746,621,752" title="AutoCAD SHX Text" color="#000000" flags="print" name="4f2e96ec-23f9-498e-b23f-f6858ffd5d5b" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="24" rect="615,746,621,752" title="AutoCAD SHX Text" color="#000000" flags="print" name="b63170dd-87f1-4286-8e83-427d15019a62" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="24" rect="615,746,621,752" title="AutoCAD SHX Text" color="#000000" flags="print" name="eb19316c-c4ae-4ae9-aeaf-fa49773c462d" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="24" rect="615,746,621,752" title="AutoCAD SHX Text" color="#000000" flags="print" name="413136dd-c172-489f-b4f2-32df692b8369" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="24" rect="657,746,663,752" title="AutoCAD SHX Text" color="#000000" flags="print" name="ae421f52-23eb-432c-8a21-8f80792b05b0" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="24" rect="657,746,663,752" title="AutoCAD SHX Text" color="#000000" flags="print" name="1d5f9f57-e655-4782-aaab-75b520d50f20" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="24" rect="657,746,663,752" title="AutoCAD SHX Text" color="#000000" flags="print" name="9c836911-ba5d-44aa-927b-ee86beabc5c5" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="24" rect="657,746,663,752" title="AutoCAD SHX Text" color="#000000" flags="print" name="3640a7dc-5e5f-4550-9f6f-e0822ae782c2" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="24" rect="303,543,309,549" title="AutoCAD SHX Text" color="#000000" flags="print" name="ad6aee44-3f87-4f6d-9260-80a201a76c5b" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="24" rect="303,543,309,549" title="AutoCAD SHX Text" color="#000000" flags="print" name="e023fa49-5acc-4358-adf6-ab293ca6a832" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="24" rect="303,543,309,549" title="AutoCAD SHX Text" color="#000000" flags="print" name="78b07dde-dd67-4fee-afea-ecb09560bae6" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="24" rect="303,543,309,549" title="AutoCAD SHX Text" color="#000000" flags="print" name="32fe3eb5-3ef3-4fe1-8f65-a17dbf7b1395" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="24" rect="303,939,309,945" title="AutoCAD SHX Text" color="#000000" flags="print" name="16642a6a-baaa-4c96-979f-b8284555b8d4" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="24" rect="303,939,309,945" title="AutoCAD SHX Text" color="#000000" flags="print" name="1f6359a6-3c2f-4f34-a82e-7dfd6d8897a9" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="24" rect="303,939,309,945" title="AutoCAD SHX Text" color="#000000" flags="print" name="102f0467-6052-4aa1-9c13-baf7fe84e5e8" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="24" rect="303,939,309,945" title="AutoCAD SHX Text" color="#000000" flags="print" name="26eab713-6eef-42bc-9dc0-4b5133ef85ce" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="24" rect="300,940,306,946" title="AutoCAD SHX Text" color="#000000" flags="print" name="51968e99-aa7f-487a-bdbe-2e931c5b19db" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="24" rect="300,940,306,946" title="AutoCAD SHX Text" color="#000000" flags="print" name="a1e23b8e-2f31-448f-884e-925754926f72" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="24" rect="300,940,306,946" title="AutoCAD SHX Text" color="#000000" flags="print" name="315370d9-0a68-4cf5-96a7-72d388bf84ca" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="24" rect="300,940,306,946" title="AutoCAD SHX Text" color="#000000" flags="print" name="b2d937e5-e0cb-4640-bf73-e50e99ee949c" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="24" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="05729ff5-cf7c-4270-93e9-8c2007f9a049" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="24" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="dbc3bc7f-581e-48b6-a1d7-e25e2520813a" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="24" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="13e18067-96a3-40d4-b564-a5205355edc1" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="24" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="f5b2b434-93e7-4907-8948-2749c4e6aa41" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="24" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="117ae322-2435-4772-875e-98efc6723251" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="24" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="0e95c617-4289-48e1-8086-4b391c8b5249" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="24" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="700c58ca-fc86-4969-82dc-e3bbbb24cf64" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="24" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="3799cbc9-4db4-4013-b1fe-37e1589fd48e" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="24" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="825e2084-2af0-437a-abaf-c4d91bccc1c2" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="25" rect="438,1045,444,1051" title="AutoCAD SHX Text" color="#000000" flags="print" name="822917bd-c43b-44bc-afc5-86d0899f9a47" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="25" rect="438,1045,444,1051" title="AutoCAD SHX Text" color="#000000" flags="print" name="f21996c0-f074-4a46-a698-5a022dbb5ae8" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="25" rect="438,1045,444,1051" title="AutoCAD SHX Text" color="#000000" flags="print" name="0d0723d2-39b9-4bf5-b3e4-bc13d0af4462" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="25" rect="438,1045,444,1051" title="AutoCAD SHX Text" color="#000000" flags="print" name="60718634-e259-43af-b005-26c73e7740c5" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="25" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="5acaac9f-808d-401a-9e98-4537774f2a80" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="25" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="197095ac-c887-45ef-b6a6-cc2d97153e98" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="25" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="6505622c-8cf3-4de9-ba39-7d49be79d0a9" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="25" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="e7b13213-4994-4d4a-8148-c057d3364957" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="25" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="d83d94f4-a8ec-497c-ba98-e7f9f7ec0087" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="25" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="6b84ebf0-9d14-4a7e-8673-5ddd8d6ef664" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="25" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="9ff71ee8-f551-4b85-9ef8-435790af2df3" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="25" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="ef36e768-71b8-405e-b150-9a388a54f8cf" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="25" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="1b8865da-e801-461d-b36d-7f173496118e" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="26" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="ca8ac9f8-b5be-4a4d-b27b-8ce3ab7a3612" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="26" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="765d79ed-ac24-4dde-b9c7-9e9999912c9b" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="26" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="e72f1f24-8f74-49c4-b589-5a5faeb2d2a7" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="26" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="bf3538df-f9dc-4e83-8be4-4c6d0359550c" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="26" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="103b58f1-4a26-4069-955f-e8036d2e1c7e" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="26" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="7112d6f4-755d-4a46-8cac-a9a93d0756a2" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="26" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="49456672-41b7-4b8a-aa74-be138ab973cd" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="26" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="4938d122-53fe-4742-86ba-d9bce8e67820" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="26" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="c4259336-8cff-4ae4-8955-9ad843fdc871" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="27" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="ef91f410-a8a6-429e-8b8e-54193031edc4" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="27" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="d45b2135-9c6c-403b-8d92-7d3907740ca3" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="27" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="a33b775c-4cf3-4129-a8a5-4758ef9f3d90" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="27" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="4b2761fc-6e2a-46a9-9d9e-8410cc1eade5" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="27" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="ac953f98-5338-45ef-a94c-35b13a7475fa" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="27" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="ab5a94fb-7686-4698-b26f-62faf2e7d8a8" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="27" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="9203dff0-1123-4c15-9fe8-0b39d5a62ed7" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="27" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="85fc39eb-8a0e-4846-8ead-d35d4a13188f" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="27" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="7b9440e1-2851-4e67-9f03-8fa1cdfb7e7b" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="28" rect="640,697,646,703" title="AutoCAD SHX Text" color="#000000" flags="print" name="99768bc2-06e6-4cf4-baff-23f4fc49c894" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="28" rect="640,697,646,703" title="AutoCAD SHX Text" color="#000000" flags="print" name="c9912943-2bbb-4dfd-b0d4-74dc53681cd7" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="28" rect="640,696,646,703" title="AutoCAD SHX Text" color="#000000" flags="print" name="299f878d-5837-4b3d-aed7-8002509a0ac6" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="28" rect="640,696,646,703" title="AutoCAD SHX Text" color="#000000" flags="print" name="acce220f-4ab0-4508-b95e-131be3b3aafc" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="28" rect="681,697,687,703" title="AutoCAD SHX Text" color="#000000" flags="print" name="a898fe30-bca3-4b14-92d9-941976e602c6" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="28" rect="681,697,687,703" title="AutoCAD SHX Text" color="#000000" flags="print" name="10e9d665-f226-457a-b119-df8a64d1f3a2" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="28" rect="681,697,687,703" title="AutoCAD SHX Text" color="#000000" flags="print" name="b296c779-650f-4223-aa1e-16ef3cf95fa2" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="28" rect="681,697,687,703" title="AutoCAD SHX Text" color="#000000" flags="print" name="9b6c6bfe-16e2-4bf5-a086-8359c1e1bc84" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="28" rect="299,545,305,551" title="AutoCAD SHX Text" color="#000000" flags="print" name="736bcf7d-665e-417d-bbbf-a429c6fbce95" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="28" rect="299,545,305,551" title="AutoCAD SHX Text" color="#000000" flags="print" name="d5da3162-3988-4b41-8e97-73437fc34c11" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="28" rect="299,545,305,551" title="AutoCAD SHX Text" color="#000000" flags="print" name="63c3afb6-7ff6-4124-9a69-f4f0f940f93e" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="28" rect="299,545,305,551" title="AutoCAD SHX Text" color="#000000" flags="print" name="a98d7562-a82b-4b81-854d-0d1275de820f" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="28" rect="295,875,301,881" title="AutoCAD SHX Text" color="#000000" flags="print" name="24227976-f042-4db0-83b2-4e3912e394ef" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="28" rect="295,875,301,881" title="AutoCAD SHX Text" color="#000000" flags="print" name="fd81d9b8-26bf-459d-8621-ab5d7b3e33a7" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="28" rect="295,875,301,881" title="AutoCAD SHX Text" color="#000000" flags="print" name="ba6f3579-dfbe-46aa-a86d-715e1dfce2e9" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="28" rect="295,875,301,881" title="AutoCAD SHX Text" color="#000000" flags="print" name="d063fe0e-7981-4ce8-8271-4a3dfb5e51a4" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="28" rect="292,873,298,879" title="AutoCAD SHX Text" color="#000000" flags="print" name="76596b14-89f3-40a3-a6a0-fe51f1386ddf" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="28" rect="292,873,298,879" title="AutoCAD SHX Text" color="#000000" flags="print" name="8537bfd2-e192-4316-a5b1-93947d3ea010" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="28" rect="292,873,298,879" title="AutoCAD SHX Text" color="#000000" flags="print" name="d8f39bc8-a5ee-4914-a124-fa9adac35271" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="28" rect="292,873,298,879" title="AutoCAD SHX Text" color="#000000" flags="print" name="8c79d630-8ef9-44b9-afe3-c3b34418f79e" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="28" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="59e3803b-a178-4f6c-b1eb-9079fc9d6492" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="28" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="7b5f8be3-07fa-405d-9287-42e0cd5140a1" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="28" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="bd3bf5fc-87d1-4be3-a830-bfc23f143c6c" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="28" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="3b380632-f364-4402-ab8b-daf43f2d22aa" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="28" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="1219ba3b-cd9d-4cb5-ac74-1cfb7337ebbe" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="28" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="f5619702-47e6-4e3a-a1d6-006749c717d4" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="28" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="7608c5c2-6523-4701-b175-77e705cebd17" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="28" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="09be6ca3-872b-4ffc-919a-69aa2810acb6" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="28" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="a12af2af-9b16-4fc0-ac1b-26727a4ef494" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="29" rect="456,1045,463,1051" title="AutoCAD SHX Text" color="#000000" flags="print" name="171ff21d-2fcc-4498-a2a5-a52adc34cd9b" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="29" rect="456,1045,462,1051" title="AutoCAD SHX Text" color="#000000" flags="print" name="8421559d-121a-4275-8b2e-6f04e21311d9" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="29" rect="456,1045,462,1051" title="AutoCAD SHX Text" color="#000000" flags="print" name="6274f946-57d9-41ff-9eef-e321aae16669" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="29" rect="456,1045,462,1051" title="AutoCAD SHX Text" color="#000000" flags="print" name="9787fdde-902a-4dd1-bd5e-210e67479f9f" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="29" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="0e516535-6e5b-4fa7-9dfb-366b388bfcdf" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="29" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="763b80a6-73b5-48ba-ae53-2178df7295bf" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="29" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="698c9a5e-8aa0-44f1-88fe-8eef8c3ff49f" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="29" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="db10021b-ade4-4a98-a6d5-410a98e61c3a" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="29" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="60267ba3-358b-4a20-89bb-f05a877d6923" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="29" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="511f67e7-ed64-45c6-a907-a66ec95155ca" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="29" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="ffeb2832-a2c3-43e2-9b88-8d66fc70d913" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="29" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="bccc333c-9f24-4f36-bef4-2a48e04255ea" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="29" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="590683fd-6e39-4bec-9546-797151625ec0" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="30" rect="623,731,629,737" title="AutoCAD SHX Text" color="#000000" flags="print" name="dd37e1c5-0541-4001-881f-fe5fa78906e8" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="30" rect="623,731,629,737" title="AutoCAD SHX Text" color="#000000" flags="print" name="fcbb7587-7d04-43f2-a5d5-fb136be20d02" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="30" rect="623,731,629,737" title="AutoCAD SHX Text" color="#000000" flags="print" name="0f220636-9a12-494e-9971-da4111500512" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="30" rect="623,731,629,737" title="AutoCAD SHX Text" color="#000000" flags="print" name="d6110f8e-b1bf-4222-bb11-74818a6d31d4" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="30" rect="665,731,671,737" title="AutoCAD SHX Text" color="#000000" flags="print" name="85bb0ebe-7d98-4536-8966-0717c261ec33" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="30" rect="665,731,671,737" title="AutoCAD SHX Text" color="#000000" flags="print" name="2e09d425-6a02-46d7-8c88-24e16869e2b8" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="30" rect="665,731,671,737" title="AutoCAD SHX Text" color="#000000" flags="print" name="42dc14eb-bd2c-4da5-90c6-105f8941eb45" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="30" rect="665,731,671,737" title="AutoCAD SHX Text" color="#000000" flags="print" name="1de2305e-20f3-4fd6-9fe2-05737dc43162" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="30" rect="311,528,317,534" title="AutoCAD SHX Text" color="#000000" flags="print" name="90047aa1-2ff0-46cf-a7b0-089f247da629" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="30" rect="311,528,317,534" title="AutoCAD SHX Text" color="#000000" flags="print" name="4ce089e3-f8d1-423c-a35a-eea1f50fb3af" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="30" rect="311,528,317,534" title="AutoCAD SHX Text" color="#000000" flags="print" name="c0884c03-a2e3-4abf-bb75-cbc847e80a81" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="30" rect="311,528,317,534" title="AutoCAD SHX Text" color="#000000" flags="print" name="a425ec43-e6bf-40da-9353-3059558506e5" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="30" rect="311,924,317,930" title="AutoCAD SHX Text" color="#000000" flags="print" name="cb32619d-9faa-4222-829e-6300abc28675" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="30" rect="311,924,317,930" title="AutoCAD SHX Text" color="#000000" flags="print" name="fd5c2680-4336-441e-9b3e-c985f3e5da04" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="30" rect="311,924,317,930" title="AutoCAD SHX Text" color="#000000" flags="print" name="2b8f8e0a-0273-4add-9750-9fe30184be7d" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="30" rect="311,924,317,930" title="AutoCAD SHX Text" color="#000000" flags="print" name="2f0063d3-3dee-439c-9daa-44dba35a4c08" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="30" rect="307,925,313,931" title="AutoCAD SHX Text" color="#000000" flags="print" name="4a7c9b4e-e577-4b99-a0f8-087a1285f7e2" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="30" rect="307,925,313,931" title="AutoCAD SHX Text" color="#000000" flags="print" name="2db9cf52-70e1-4731-bdc2-1951fe9d1c49" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="30" rect="307,925,313,931" title="AutoCAD SHX Text" color="#000000" flags="print" name="705cf5b0-9d16-4809-833c-2d9d922c8f15" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="30" rect="307,925,313,931" title="AutoCAD SHX Text" color="#000000" flags="print" name="42e0dc4a-83ff-451f-91f5-6da53b8a31ac" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="30" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="d6211732-6646-4b55-a2b6-07f9b1694b53" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="30" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="cc9b79c7-fe4f-47d9-8941-27614541f478" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="30" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="cd57f9cf-a4c5-4719-82dc-61e9ed5879bf" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="30" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="b833384e-14f2-4a7e-90e2-61ef30c950a0" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="30" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="f88c8906-de34-4f2d-a87e-83bb63a9cb9c" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="30" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="5fb8cf87-51af-4011-b8eb-1a856b58a512" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="30" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="f8fd47a3-5c28-4196-aa70-29e9bb3554b0" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="30" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="3d5ac471-3501-48e7-b7ea-2fa5abe4cbbb" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="30" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="6a1da575-cd0f-4239-b38f-a84bf85034d4" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="31" rect="445,1031,451,1037" title="AutoCAD SHX Text" color="#000000" flags="print" name="9ff09b0c-b6b8-498c-aed3-cb7b1ec22274" width="0">
+      <contents>MODELNUMBER</contents>
+    </square>
+    <square page="31" rect="445,1031,451,1037" title="AutoCAD SHX Text" color="#000000" flags="print" name="3de9c597-704a-41e3-b5d9-99f09998a8cd" width="0">
+      <contents>TRADENAME</contents>
+    </square>
+    <square page="31" rect="445,1031,451,1037" title="AutoCAD SHX Text" color="#000000" flags="print" name="5996d141-8e12-4f85-a797-011dc88ac67c" width="0">
+      <contents>PRODUCT</contents>
+    </square>
+    <square page="31" rect="445,1031,451,1037" title="AutoCAD SHX Text" color="#000000" flags="print" name="a9493709-9d24-4c30-ac2a-ac63c70ed872" width="0">
+      <contents>MATERIAL</contents>
+    </square>
+    <square page="31" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="0d26b0c0-2093-4bd6-8f75-e466446ea424" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="31" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="6a4497af-ccaf-4a24-a2d3-57677b8c48aa" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="31" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="291d26ec-86ca-42b5-961b-1274c9a86a21" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="31" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="abcf26ac-74b9-482c-b3ac-06e4931ef9df" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="31" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="bcc34895-d3ee-43b5-b8ac-578cebb5bd5d" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="31" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="e5463d48-5181-4aef-a4ea-5305b9c6b791" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="31" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="99c04c56-49a3-4cd0-87f4-2556918d902f" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="31" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="431266fc-58a1-47ea-b620-e008f86a43e0" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="31" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="cd590d88-5fb1-4891-b323-2ee275ef0048" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="32" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="39992246-2e4c-4a4f-b671-aa2723cd6e75" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="32" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="8bc3eefa-bf57-4a8b-9d05-0c8fad3e8dc6" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="32" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="3c84c328-3aa1-4172-87a9-15b9dd895ae8" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="32" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="fff6b88f-bdb0-48e6-8af9-403480f8d73d" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="32" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="df560e88-9640-455e-aac3-2436c4369906" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="32" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="621b8983-ba88-4bfd-a9c7-d66286155a2d" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="32" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="519cbcf1-e4f3-4ec9-ab1a-904ba035efbc" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="32" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="d1476f66-484c-4282-9c22-595bda40bc24" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="32" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="c697c1d3-13de-46ee-935d-43929b0b2efd" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="33" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="77e3029b-15ef-4757-a8ae-e0ef1b7d72e6" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="33" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="61657362-abca-44cf-a044-cccc19f3b831" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="33" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="3fff80f0-ce77-488d-8def-8372911ff1b0" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="33" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="2d4fa16e-2522-4b8a-b1cf-c2b21af80a27" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="33" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="94fbe38c-0d58-4388-8d1a-e76e7bcedb2d" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="33" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="a450bb9a-1d96-4438-9f51-be1268a9c660" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="33" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="df870c0c-cbc1-4a07-b6dc-0e9ad0d2abdd" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="33" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="8c8d6e3c-9656-4094-968f-716c514d15b2" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="33" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="1513a835-970e-4676-a838-39cd56bbe8ad" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="34" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="1baf7d14-6a9e-4aaf-9ea2-e3bd9d3b1674" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="34" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="1164753a-7bce-4afd-8d1a-93ece88036d3" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="34" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="a5ea5676-519f-4699-8f83-b4c944a69933" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="34" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="4bd61e40-eb30-4955-9025-92cd7dd120a3" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="34" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="bb9c3b1e-4834-44bb-9da4-52ed26aa1e14" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="34" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="8a818ec9-5cb1-4f02-8a41-72147f2a5d46" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="34" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="d3a7482e-082c-459b-bd46-95e13c265ad5" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="34" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="064ddae5-7844-4be8-ae13-345cbf323494" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="34" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="4270a9f6-014a-49d3-95a5-be9f3fae5098" width="0">
+      <contents>02</contents>
+    </square>
+    <square page="35" rect="75,184,85,219" title="AutoCAD SHX Text" color="#000000" flags="print" name="83ad28d7-cd97-4f6f-87e8-58414b1ce0a0" width="0">
+      <contents>CREATED:</contents>
+    </square>
+    <square page="35" rect="75,92,85,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="789c9e02-b819-40cc-97e5-3f96099666c7" width="0">
+      <contents>REVISED:</contents>
+    </square>
+    <square page="35" rect="72,35,88,89" title="AutoCAD SHX Text" color="#000000" flags="print" name="b8a00fb3-55ce-4533-8dfe-684156bc5aec" width="0">
+      <contents>04/28/21</contents>
+    </square>
+    <square page="35" rect="92,178,103,220" title="AutoCAD SHX Text" color="#000000" flags="print" name="143f25c1-1c59-434e-a6a9-6664c9c97241" width="0">
+      <contents>DRAWN BY:</contents>
+    </square>
+    <square page="35" rect="92,54,103,125" title="AutoCAD SHX Text" color="#000000" flags="print" name="6f7f0cb8-4c89-4bdd-9068-67f7817a73c7" width="0">
+      <contents> SCALE:  AS SHOWN</contents>
+    </square>
+    <square page="35" rect="55,48,68,82" title="AutoCAD SHX Text" color="#000000" flags="print" name="e6bea5d5-6d04-4099-b1fb-ccbdcb322e47" width="0">
+      <contents>SHEET #</contents>
+    </square>
+    <square page="35" rect="55,118,68,152" title="AutoCAD SHX Text" color="#000000" flags="print" name="21088bbe-ff81-485b-a0f0-32ae38486a08" width="0">
+      <contents>FLOOR #</contents>
+    </square>
+    <square page="35" rect="55,179,68,205" title="AutoCAD SHX Text" color="#000000" flags="print" name="76938590-124c-438a-b488-965a7546795d" width="0">
+      <contents>JOB #</contents>
+    </square>
+    <square page="35" rect="32,119,52,148" title="AutoCAD SHX Text" color="#000000" flags="print" name="7bdfd644-86b6-4387-88f3-e9bb4b5abe48" width="0">
+      <contents>02</contents>
+    </square>
+  </annots>
+  <f href="" />
 </xfdf>
