@@ -30,14 +30,17 @@ namespace SavePDFUsingNative
 
         private void PdfViewerControl_DocumentLoaded(object sender, EventArgs args)
         {
-            try
+            Device.BeginInvokeOnMainThread(() =>
             {
-                pdfViewerControl.ImportAnnotations(_xfdfStream, Syncfusion.Pdf.Parsing.AnnotationDataFormat.XFdf);
-            }
-            catch
-            {
-                DisplayAlert("Error importing annotations", "Email ddecker@kahua.com to get help on this issue.", "Cancel");
-            }
+                try
+                {
+                    pdfViewerControl.ImportAnnotations(_xfdfStream, Syncfusion.Pdf.Parsing.AnnotationDataFormat.XFdf);
+                }
+                catch (Exception e)
+                {
+                    DisplayAlert("Error importing annotations", "Email ddecker@kahua.com to get help on this issue.", "Cancel");
+                }
+            });
         }
 
         private async void Item_Clicked(object sender, EventArgs e)
@@ -46,7 +49,7 @@ namespace SavePDFUsingNative
             var xfdfStream = pdfViewerControl.ExportAnnotations(Syncfusion.Pdf.Parsing.AnnotationDataFormat.XFdf) as MemoryStream;
 
             //var newPage = new Page();
-            
+
             //await Navigation.PushModalAsync(newPage);
 
             //Device.BeginInvokeOnMainThread(() =>
@@ -61,6 +64,23 @@ namespace SavePDFUsingNative
             //    }
             //});
 
+
+            //pdfViewerControl.ClearAllAnnotations();
+            //pdfViewerControl.ClearUndoRedoStack();
+        }
+
+        private void Clear_Clicked(object sender, EventArgs e)
+        {
+            pdfViewerControl.ClearAllAnnotations();
+            pdfViewerControl.ClearUndoRedoStack();
+            try
+            {
+                pdfViewerControl.ImportAnnotations(_xfdfStream, Syncfusion.Pdf.Parsing.AnnotationDataFormat.XFdf);
+            }
+            catch
+            {
+                DisplayAlert("Error importing annotations", "Email ddecker@kahua.com to get help on this issue.", "Cancel");
+            }
         }
 
         protected override void OnDisappearing()

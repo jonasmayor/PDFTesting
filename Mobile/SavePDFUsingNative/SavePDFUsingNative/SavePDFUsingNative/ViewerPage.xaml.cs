@@ -50,6 +50,10 @@ namespace SavePDFUsingNative
         private void Clear_Clicked(object sender, EventArgs e)
         {
             pdfViewerControl.ClearAllAnnotations();
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                pdfViewerControl.ClearUndoRedoStack();
+            });
         }
 
         Stream exportedStream;

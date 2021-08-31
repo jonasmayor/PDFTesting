@@ -32,9 +32,10 @@
                 <ColumnDefinition Width="90"/>
                 <ColumnDefinition Width="200"/>
             </Grid.ColumnDefinitions>
-           
-            <Button Text="Save" Grid.Column="0" Clicked="Export_Clicked"/>
-            <Button Text="Import Saved Markups" Grid.Column="1" Clicked="ImportExported_Clicked"/>
+           <Button Text="Undo" Grid.Column="0" VerticalOptions="Start" Command="{Binding PerformUndoCommand, Source={x:Reference Name=pdfViewerControl}}" IsEnabled="{Binding CanUndo, Source={x:Reference Name=pdfViewerControl}}" />
+      
+            <Button Text="Save" Grid.Column="1" Clicked="Export_Clicked"/>
+            <Button Text="Import Saved" Grid.Column="2" Clicked="ImportExported_Clicked"/>
            
         </Grid>
     </Grid>
