@@ -100,5 +100,10 @@ namespace SavePDFUsingNative
             {
             }
         }
+
+        void Button_Clicked_1(System.Object sender, System.EventArgs e)
+        {
+            pdfViewerControl.RemoveAnnotation(pdfViewerControl.SelectedAnnotation);
+        }
     }
 }

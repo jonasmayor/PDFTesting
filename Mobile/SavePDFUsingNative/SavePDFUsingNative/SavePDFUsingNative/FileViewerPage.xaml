@@ -9,6 +9,8 @@
     <ContentPage.Content>
         <StackLayout>
             <Button Text="ClearAndImport" Clicked="Clear_Clicked" />
+            <Button Text="Delete" VerticalOptions="Start" Clicked="Button_Clicked_1" />
+      
             <Button Text="Undo" VerticalOptions="Start" Command="{Binding PerformUndoCommand, Source={x:Reference Name=pdfViewerControl}}" IsEnabled="{Binding CanUndo, Source={x:Reference Name=pdfViewerControl}}" />
         <syncfusion:SfPdfViewer VerticalOptions="FillAndExpand" x:Name="pdfViewerControl" MaximumZoomPercentage="999" IsToolbarVisible="True" />
         </StackLayout>
