@@ -34,5 +34,10 @@ namespace SavePDFUsingNative
             Navigation.PushAsync(new KahuaViewerPage());
         }
 
+        void GanttChartButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+
+            Navigation.PushAsync(new GanttDemoPage());
+        }
     }
 }

@@ -26,7 +26,6 @@ namespace SavePDFUsingNative.iOS
             Syncfusion.SfPdfViewer.XForms.iOS.SfPdfDocumentViewRenderer.Init();
             LoadApplication(new App());
 
-
             return base.FinishedLaunching(app, options);
         }
     }
