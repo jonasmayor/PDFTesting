@@ -203,6 +203,7 @@ namespace MVCwebservice.webapi
             responseText.Content = new StringContent(pageImage, System.Text.Encoding.UTF8, "text/plain");
             return responseText;
         }
+
         private string GetDocumentPath(string document)
         {
             string documentPath = string.Empty;

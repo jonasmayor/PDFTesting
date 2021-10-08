@@ -35,18 +35,13 @@ namespace kahua.host.uno.common.pdf
             this.SetHtmlContent($@"<div id=""{htmlId}""></div>");
         }
 
-        public async void ImportXfdf()
+        public void ImportXfdf(string path)
         {
-            var fileOpenPicker = new FileOpenPicker();
-            fileOpenPicker.SuggestedStartLocation = PickerLocationId.DocumentsLibrary;
-            fileOpenPicker.FileTypeFilter.Add("*");
-            StorageFile pickedFile = await fileOpenPicker.PickSingleFileAsync();
-            if (pickedFile != null)
+            if (!string.IsNullOrEmpty(path))
             {
-                var name = pickedFile.Path;
                 var htmlId = $"PDF_{this.GetHtmlId()}";
-
-                var fullPath = System.IO.Path.Combine(_folderPath, name);
+                var fullPath = System.IO.Path.Combine(_folderPath, path);
+                Console.WriteLine(fullPath);
 
                 string javascript = $@"
                 (function(){{

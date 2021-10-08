@@ -12,6 +12,7 @@
         <StackPanel Orientation="Horizontal">
             <Button x:Name="Load" Content="Load Viewer" Click="Load_Click"/>
             <Button x:Name="LoadBig" Content="Load Big Document" Click="Big_Load_Click"/>
+            <ComboBox x:Name="PathsCombo" ItemsSource="{x:Bind paths}" IsEnabled="false"/>
             <Button x:Name="Import" Content="Import Xfdf" Click="Import_Click" IsEnabled="false"/>
             <Button x:Name="Export" Content="Export Xfdf" Click="Export_Click" IsEnabled="false"/>
         </StackPanel>
