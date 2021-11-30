@@ -23,6 +23,7 @@ namespace SyncFusionViewer4._8
     /// </summary>
     public partial class MainWindow : Window
     {
+        private string _workingfileWithPath = null;
         private string _fileNameWithPath = null;
         private string _downloadFile = null;
         private WebClient _webClient;
@@ -36,7 +37,22 @@ namespace SyncFusionViewer4._8
         {
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NDc0MDQ3QDMxMzkyZTMyMmUzMGtIdW1leW5Tb3UwWFNUWExYSCs5cEtTdFJmblJXYnIzMllUN0c4UWdib1k9");
             InitializeComponent();
+            Viewer.RenderingEngine = PdfRenderingEngine.Pdfium;
+
+            // Syncfusion can't hide the left side tool bar, you rather need to manually disable all functionality there
+            Viewer.ThumbnailSettings.IsVisible = false;
+            Viewer.IsBookmarkEnabled = false;
+            // Hides the layer icon. 
+            Viewer.EnableLayers = false;
+            // Hides the organize page icon. 
+            Viewer.PageOrganizerSettings.IsIconVisible = false;
+            // Hides the redaction icon. 
+            Viewer.EnableRedactionTool = false;
+            // Hides the form icon. 
+            Viewer.FormSettings.IsIconVisible = false;
+            Viewer.CursorMode = PdfViewerCursorMode.HandTool;
             Viewer.ToolbarSettings.ShowFileTools = false;
+
             Viewer.ShapeAnnotationChanged += Viewer_ShapeAnnotationChanged;
             Viewer.InkAnnotationChanged += Viewer_InkAnnotationChanged;
             Viewer.FreeTextAnnotationChanged += Viewer_FreeTextAnnotationChanged;
@@ -110,6 +126,23 @@ namespace SyncFusionViewer4._8
 
         }
 
+        private void OpenPdfClick(object sender, RoutedEventArgs e)
+        {
+            var menuItem = sender as MenuItem;
+            _workingfileWithPath = menuItem.Tag.ToString();
+            _fileNameWithPath = System.IO.Path.GetFileNameWithoutExtension(_workingfileWithPath);
+            openPDf();
+        }
+
+        private void OpenPdfPasiveClick(object sender, RoutedEventArgs e)
+        {
+            var menuItem = sender as MenuItem;
+            _workingfileWithPath = menuItem.Tag.ToString();
+            _fileNameWithPath = System.IO.Path.GetFileNameWithoutExtension(_workingfileWithPath);
+            openPdfPasive();
+        }
+
+
         private void OpenMenuItem_Click(object sender, RoutedEventArgs e)
         {
             var openFileDlg = new Microsoft.Win32.OpenFileDialog();
@@ -118,9 +151,57 @@ namespace SyncFusionViewer4._8
 
             if (openFileDlg.ShowDialog() == true)
             {
-                _fileNameWithPath = System.IO.Path.GetFileNameWithoutExtension(openFileDlg.FileName);
-                Viewer.Load(openFileDlg.FileName);
+                _workingfileWithPath = openFileDlg.FileName;
+                _fileNameWithPath = System.IO.Path.GetFileNameWithoutExtension(_workingfileWithPath);
+                openPDf();
+
             }
+        }
+
+        private void openPDf()
+        {
+            var xfdf = _workingfileWithPath.Replace(".pdf", ".xfdf");
+            if (File.Exists(xfdf))
+                Viewer.DocumentLoaded += Viewer_DocumentLoaded1;
+            Viewer.Load(_workingfileWithPath);
+        }
+
+        private void OpenMenuItemPasive_Click(object sender, RoutedEventArgs e)
+        {
+            var openFileDlg = new Microsoft.Win32.OpenFileDialog();
+            openFileDlg.DefaultExt = ".pdf";
+            openFileDlg.Filter = "Pdf documents (.pdf)|*.pdf";
+
+            if (openFileDlg.ShowDialog() == true)
+            {
+                _workingfileWithPath = openFileDlg.FileName;
+                _fileNameWithPath = System.IO.Path.GetFileNameWithoutExtension(_workingfileWithPath);
+                openPdfPasive();
+
+            }
+        }
+
+        private void openPdfPasive()
+        {
+            var xfdf = _workingfileWithPath.Replace(".pdf", ".xfdf");
+            if (File.Exists(xfdf))
+                Viewer.DocumentLoaded += Viewer_DocumentLoaded1Async;
+            Viewer.Load(_workingfileWithPath);
+        }
+
+        private void Viewer_DocumentLoaded1(object sender, EventArgs args)
+        {
+            Viewer.DocumentLoaded += Viewer_DocumentLoaded1;
+            var xfdf = _workingfileWithPath.Replace(".pdf", ".xfdf");
+            loadXfdf(xfdf);
+        }
+
+        private async void Viewer_DocumentLoaded1Async(object sender, EventArgs args)
+        {
+            Viewer.DocumentLoaded += Viewer_DocumentLoaded1;
+            await Task.Delay(4000);
+            var xfdf = _workingfileWithPath.Replace(".pdf", ".xfdf");
+            loadXfdf(xfdf);
         }
 
         private void ImportMenuItem_Click(object sender, RoutedEventArgs e)
@@ -130,30 +211,34 @@ namespace SyncFusionViewer4._8
             openFileDlg.Filter = "xfdf documents (.xfdf)|*.xfdf";
             if (openFileDlg.ShowDialog() == true)
             {
+                loadXfdf(openFileDlg.FileName);
+            }
+        }
 
-                var file = System.IO.File.ReadAllText(openFileDlg.FileName);
-                using (var stream = new MemoryStream())
+        private void loadXfdf(string file)
+        {
+            var xfdf = System.IO.File.ReadAllText(file);
+            using (var stream = new MemoryStream())
+            {
+                using (var writer = new StreamWriter(stream))
                 {
-                    using (var writer = new StreamWriter(stream))
+                    writer.Write(xfdf);
+                    writer.Flush();
+                    stream.Position = 0;
+                    try
                     {
-                        writer.Write(file);
-                        writer.Flush();
-                        stream.Position = 0;
-                        try
-                        {
-                            _importingAnnotations = true;
-                            Viewer.ImportAnnotations(stream, Syncfusion.Pdf.Parsing.AnnotationDataFormat.XFdf);
-                        }
-                        finally
-                        {
-                            _importingAnnotations = false;
-                        }
+                        _importingAnnotations = true;
+                        Viewer.ImportAnnotations(stream, Syncfusion.Pdf.Parsing.AnnotationDataFormat.XFdf);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+                    finally
+                    {
+                        _importingAnnotations = false;
                     }
                 }
-
-                //Viewer.ImportAnnotations(openFileDlg.FileName, Syncfusion.Pdf.Parsing.AnnotationDataFormat.XFdf);
-
-                //Viewer.LoadedDocument.Pages[0].Rotation = Syncfusion.Pdf.PdfPageRotateAngle.RotateAngle270;
             }
         }
 
