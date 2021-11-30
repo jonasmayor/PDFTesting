@@ -61,7 +61,13 @@ namespace SyncFusionViewer4._8
             Viewer.StickyNoteAnnotationChanged += Viewer_StickyNoteAnnotationChanged;
             Viewer.HandwrittenSignatureChanged += Viewer_HandwrittenSignatureChanged;
             Viewer.CurrentPageChanged += Viewer_CurrentPageChanged;
+            Viewer.HyperlinkClicked += Viewer_HyperlinkClicked;
 
+        }
+
+        private void Viewer_HyperlinkClicked(object sender, HyperlinkClickedEventArgs e)
+        {
+            
         }
 
         private void Viewer_CurrentPageChanged(object sender, EventArgs args)
@@ -81,27 +87,53 @@ namespace SyncFusionViewer4._8
 
         private void Viewer_StampAnnotationChanged(object sender, Syncfusion.Windows.PdfViewer.StampAnnotationChangedEventArgs e)
         {
+            if (e.Action == AnnotationChangedAction.Select)
+            {
+                if (_shouldLock && !e.Settings.IsLocked)
+                    e.Settings.IsLocked = true;
+            }
             checkAnnotation(e);
         }
 
         private void Viewer_TextMarkupAnnotationChanged(object sender, Syncfusion.Windows.PdfViewer.TextMarkupAnnotationChangedEventArgs e)
         {
+            if (e.Action == AnnotationChangedAction.Select)
+            {
+                if (_shouldLock && !e.Settings.IsLocked)
+                    e.Settings.IsLocked = true;
+            }
             checkAnnotation(e);
         }
 
         private void Viewer_FreeTextAnnotationChanged(object sender, Syncfusion.Windows.PdfViewer.FreeTextAnnotationChangedEventArgs e)
         {
+            if (e.Action == AnnotationChangedAction.Select)
+            {
+                if (_shouldLock && !e.Settings.IsLocked)
+                    e.Settings.IsLocked = true;
+            }
             checkAnnotation(e);
         }
 
         private void Viewer_InkAnnotationChanged(object sender, Syncfusion.Windows.PdfViewer.InkAnnotationChangedEventArgs e)
         {
+            if (e.Action == AnnotationChangedAction.Select)
+            {
+                if (_shouldLock && !e.Settings.IsLocked)
+                    e.Settings.IsLocked = true;
+            }
             checkAnnotation(e);
         }
 
         private void Viewer_ShapeAnnotationChanged(object sender, Syncfusion.Windows.PdfViewer.ShapeAnnotationChangedEventArgs e)
         {
+            if (e.Action == AnnotationChangedAction.Select)
+            {
+                if (_shouldLock && !e.Settings.IsLocked)
+                    e.Settings.IsLocked = true;
+            }
             checkAnnotation(e);
+            
         }
 
         private void checkAnnotation(AnnotationChangedEventArgs e)
@@ -217,6 +249,8 @@ namespace SyncFusionViewer4._8
 
         private void loadXfdf(string file)
         {
+            if (!File.Exists(file))
+                return;
             var xfdf = System.IO.File.ReadAllText(file);
             using (var stream = new MemoryStream())
             {
@@ -409,6 +443,22 @@ namespace SyncFusionViewer4._8
                     _selecting = false;
                 }
             }
+        }
+
+        private bool _shouldLock = false;
+        private void LockMenu_Click(object sender, RoutedEventArgs e)
+        {
+            _shouldLock = !_shouldLock;
+        }
+
+        private void OpenAndLock_Click(object sender, RoutedEventArgs e)
+        {
+            _workingfileWithPath = "../../../Pdf Libraries/Single Stamp.pdf";
+            _fileNameWithPath = System.IO.Path.GetFileNameWithoutExtension(_workingfileWithPath);
+
+            openPDf();
+            _shouldLock = true;
+           
         }
     }
 }

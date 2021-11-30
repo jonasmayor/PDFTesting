@@ -56,6 +56,14 @@
                     Click="OpenPdfPasiveClick"
                     Header="Open Rect Faking waiting for loaded pdf"
                     Tag="../../../Pdf Libraries/Single Rect.pdf" />
+                <MenuItem
+                    Click="OpenPdfClick"
+                    Header="HyperLink not Working"
+                    Tag="../../../Pdf Libraries/HyperLink.pdf" />
+                <MenuItem
+                    Name="OpenAndLock"
+                    Click="OpenAndLock_Click"
+                    Header="Stamps chaging" />
                 
             </MenuItem>
             <MenuItem Click="OpenMenuItem_Click" Header="_Open" />
@@ -68,6 +76,7 @@
             <MenuItem FontWeight="Bold" Header="Rotate CounterClockwise" Name="RotateCounterClockwise" Click="RotateCounterClockwise_Click"/>
             <MenuItem FontWeight="Bold" Header="Rotate Clockwise Command" Name="RotateClockwiseCommand" Click="RotateClockwiseCommand_Click"/>
             <MenuItem FontWeight="Bold" Header="Rotate CounterClockwise Command" Name="RotateCounterClockwiseCommand" Click="RotateCounterClockwiseCommand_Click"/>-->
+            <MenuItem Name="LockMenu" Click="LockMenu_Click" Header="_Lock Annotations" />
         </Menu>
         <StackPanel DockPanel.Dock="Top" Margin="10" Orientation="Horizontal">
             <TextBox x:Name="NameId" MinWidth="200" MaxWidth="400" Margin="2"></TextBox>
@@ -79,7 +88,6 @@
             MinimumZoomPercentage="1" 
             HorizontalAlignment="Stretch"
             VerticalAlignment="Stretch"
-            AnnotationMode="None"
-            ShowToolbar="False"/>
+            AnnotationMode="None"/>
     </DockPanel>
 </Window>
