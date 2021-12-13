@@ -61,6 +61,10 @@
                     Header="HyperLink not Working"
                     Tag="../../../Pdf Libraries/HyperLink.pdf" />
                 <MenuItem
+                    Click="OpenPdfClick"
+                    Header="Line selection fires resize"
+                    Tag="../../../Pdf Libraries/Single line.pdf" />
+                <MenuItem
                     Name="OpenAndLock"
                     Click="OpenAndLock_Click"
                     Header="Stamps chaging" />

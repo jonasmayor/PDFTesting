@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xfdf xmlns="http://ns.adobe.com/xfdf/" xml:space="preserve">
+  <annots>
+    <line page="0" start="47,432" end="293,542" color="#FF0000" title="JMayor" subject="Line" date="D:20211213155303-05'00'" name="Kahua-b981a8e0-071d-4455-8954-9f7d574f9a52" rect="37,422,303,552" head="None" tail="None" width="2" IT="LineArrow" leaderExtend="0" leaderLength="0" caption-style="Inline" caption="no">
+      <popup page="0" rect="0,649.5,0,792" />
+    </line>
+  </annots>
+  <f href="" />
+</xfdf>

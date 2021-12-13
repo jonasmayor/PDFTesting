@@ -132,6 +132,10 @@ namespace SyncFusionViewer4._8
                 if (_shouldLock && !e.Settings.IsLocked)
                     e.Settings.IsLocked = true;
             }
+            if(e.Action == AnnotationChangedAction.Resize)
+            {
+                MessageBox.Show("Trying to resize");
+            }
             checkAnnotation(e);
             
         }
