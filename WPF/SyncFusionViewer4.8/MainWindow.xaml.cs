@@ -212,7 +212,8 @@ namespace SyncFusionViewer4._8
             {
                 _workingfileWithPath = openFileDlg.FileName;
                 _fileNameWithPath = System.IO.Path.GetFileNameWithoutExtension(_workingfileWithPath);
-                openPdfPasive();
+                Viewer.Load(_workingfileWithPath); 
+                //openPdfPasive();
 
             }
         }

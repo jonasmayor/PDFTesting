@@ -65,13 +65,21 @@
                     Header="Line selection fires resize"
                     Tag="../../../Pdf Libraries/Single line.pdf" />
                 <MenuItem
+                    Click="OpenPdfClick"
+                    Header="Line selection fires resize"
+                    Tag="../../../Pdf Libraries/Single line.pdf" />
+                <MenuItem
+                    Click="OpenPdfClick"
+                    Header="missing markups and page"
+                    Tag="../../../Pdf Libraries/03-MultiPage-Vector.pdf" />
+                <MenuItem
                     Name="OpenAndLock"
                     Click="OpenAndLock_Click"
                     Header="Stamps chaging" />
                 
             </MenuItem>
             <MenuItem Click="OpenMenuItem_Click" Header="_Open" />
-            <MenuItem Click="OpenMenuItemPasive_Click" Header="_Open Faking loaded " />
+            <MenuItem Click="OpenMenuItemPasive_Click" Header="_Open Without Markups " />
             <MenuItem Click="ImportMenuItem_Click" Header="_Import xfdf" />
             <MenuItem Click="ExportMenuItem_Click" Header="_Export xfdf" />
             <!--<MenuItem FontWeight="Bold" Header="Page _Rotation" Name="PageRotation" Click="PageRotation_Click"/>
