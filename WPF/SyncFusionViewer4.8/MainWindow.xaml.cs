@@ -164,10 +164,28 @@ namespace SyncFusionViewer4._8
 
         private void OpenPdfClick(object sender, RoutedEventArgs e)
         {
+            Viewer.IsTextSearchEnabled = true;
+            Viewer.IsTextSelectionEnabled = true;
+            openPdfFromMenuItem(sender);
+        }
+
+        private void OpenPdfClickWithNoText(object sender, RoutedEventArgs e)
+        {
+            Viewer.IsTextSearchEnabled = false;
+            Viewer.IsTextSelectionEnabled = false;
+            openPdfFromMenuItem(sender);
+        }
+
+        private void openPdfFromMenuItem(object sender)
+        {
             var menuItem = sender as MenuItem;
             _workingfileWithPath = menuItem.Tag.ToString();
             _fileNameWithPath = System.IO.Path.GetFileNameWithoutExtension(_workingfileWithPath);
             openPDf();
+            bool showSelection = _fileNameWithPath == "Annotation" == true;
+            SelectHighlight.Visibility = showSelection ? Visibility.Visible : Visibility.Collapsed;
+            SelectUnderline.Visibility = showSelection ? Visibility.Visible : Visibility.Collapsed; ;
+            SelectStrikethrough.Visibility = showSelection ? Visibility.Visible : Visibility.Collapsed;
         }
 
         private void OpenPdfPasiveClick(object sender, RoutedEventArgs e)
@@ -464,6 +482,21 @@ namespace SyncFusionViewer4._8
             openPDf();
             _shouldLock = true;
            
+        }
+
+        private void SelectHighlight_Click(object sender, RoutedEventArgs e)
+        {
+            Viewer.SelectAnnotation("highlight1");
+        }
+
+        private void SelectUnderline_Click(object sender, RoutedEventArgs e)
+        {
+            Viewer.SelectAnnotation("underline1");
+        }
+
+        private void SelectStrikethrough_Click(object sender, RoutedEventArgs e)
+        {
+            Viewer.SelectAnnotation("strikeout1");
         }
     }
 }

@@ -40,7 +40,7 @@
                     Tag="BigDocument" />
             </MenuItem>-->
             <MenuItem x:Name="Samples" Header="_Samples">
-                <MenuItem
+                <!--<MenuItem
                     Click="OpenPdfClick"
                     Header="Open Oval"
                     Tag="../../../Pdf Libraries/Single Oval.pdf" />
@@ -71,12 +71,39 @@
                 <MenuItem
                     Click="OpenPdfClick"
                     Header="missing markups and page"
-                    Tag="../../../Pdf Libraries/03-MultiPage-Vector.pdf" />
+                    Tag="../../../Pdf Libraries/03-MultiPage-Vector.pdf" />-->
                 <MenuItem
                     Name="OpenAndLock"
                     Click="OpenAndLock_Click"
                     Header="Stamps chaging" />
-                
+                <MenuItem
+                    Click="OpenPdfClick"
+                    Header="Select Text markups"
+                    Tag="../../../Pdf Libraries/Annotation.pdf" />
+                <MenuItem
+                    Click="OpenPdfClick"
+                    Header="Big1 PDF Text Enable"
+                    Tag="../../../Pdf Libraries/HeavyLoad1.pdf" />
+                <MenuItem
+                    Click="OpenPdfClick"
+                    Header="Big2 PDF Text Enable"
+                    Tag="../../../Pdf Libraries/HevayLoad2.pdf" />
+                <MenuItem
+                    Click="OpenPdfClick"
+                    Header="Big3 PDF Text Enable !!"
+                    Tag="../../../Pdf Libraries/HeavyLoad3.pdf" />
+                <MenuItem
+                    Click="OpenPdfClickWithNoText"
+                    Header="Big1 PDF No Text Enable"
+                    Tag="../../../Pdf Libraries/HeavyLoad1.pdf" />
+                <MenuItem
+                    Click="OpenPdfClickWithNoText"
+                    Header="Big2 PDF No Text Enable"
+                    Tag="../../../Pdf Libraries/HeavyLoad2.pdf" />
+                <MenuItem
+                    Click="OpenPdfClickWithNoText"
+                    Header="Big3 PDF No Text Enable !!"
+                    Tag="../../../Pdf Libraries/HeavyLoad3.pdf" />
             </MenuItem>
             <MenuItem Click="OpenMenuItem_Click" Header="_Open" />
             <MenuItem Click="OpenMenuItemPasive_Click" Header="_Open Without Markups " />
@@ -92,7 +119,10 @@
         </Menu>
         <StackPanel DockPanel.Dock="Top" Margin="10" Orientation="Horizontal">
             <TextBox x:Name="NameId" MinWidth="200" MaxWidth="400" Margin="2"></TextBox>
-            <Button x:Name="SelectAnnotation" Click="SelectAnnotation_Click" Margin="2">Select</Button>
+            <Button x:Name="SelectAnnotation" Click="SelectAnnotation_Click" Margin="2" >Select</Button>
+            <Button x:Name="SelectHighlight" Content="Select Highlight" Click="SelectHighlight_Click" Width="150" Margin="0,0,5,0" Visibility="Collapsed"/>
+            <Button x:Name="SelectUnderline" Content="Select Underline" Click="SelectUnderline_Click" Width="150" Margin="0,0,5,0" Visibility="Collapsed"/>
+            <Button x:Name="SelectStrikethrough" Content="Select strikethrough" Click="SelectStrikethrough_Click" Width="150" Margin="0,0,5,0" Visibility="Collapsed"/>
         </StackPanel>
         <pdfviewer:PdfViewerControl
             x:Name="Viewer"
