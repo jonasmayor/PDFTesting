@@ -90,7 +90,7 @@
                     Tag="../../../Pdf Libraries/HevayLoad2.pdf" />
                 <MenuItem
                     Click="OpenPdfClick"
-                    Header="Big3 PDF Text Enable !!"
+                    Header="Big3 PDF Text Enable"
                     Tag="../../../Pdf Libraries/HeavyLoad3.pdf" />
                 <MenuItem
                     Click="OpenPdfClickWithNoText"
@@ -102,8 +102,12 @@
                     Tag="../../../Pdf Libraries/HeavyLoad2.pdf" />
                 <MenuItem
                     Click="OpenPdfClickWithNoText"
-                    Header="Big3 PDF No Text Enable !!"
+                    Header="Big3 PDF No Text Enable"
                     Tag="../../../Pdf Libraries/HeavyLoad3.pdf" />
+                <MenuItem
+                    Click="OpenPdfClick"
+                    Header="Long Heavy File"
+                    Tag="../../../Pdf Libraries/LongFile.pdf" />
             </MenuItem>
             <MenuItem Click="OpenMenuItem_Click" Header="_Open" />
             <MenuItem Click="OpenMenuItemPasive_Click" Header="_Open Without Markups " />
